@@ -1,0 +1,1712 @@
+VariableName,Attribute,Use in Analysis
+P01RXRKOA,"SV:Right knee baseline radiographic OA (definite osteophytes, calc, used in OAI definition of symptomatic knee OA)",1.0
+P01LXRKOA,"SV:Left knee baseline radiographic OA (definite osteophytes, calc, used in OAI definition of symptomatic knee OA)",1.0
+V00URINHR1,"EV:Urine collection: time collected (first collection, 24-hr time) (calc)",0.0
+V00URINHR2,"EV:Urine collection: time collected (repeat collection, 24-hr time) (calc)",0.0
+V00BLDHRS1,"EV:Phlebotomy: time venipuncture completed (first draw, 24-hr time) (calc)",0.0
+V00BLDHRS2,"EV:Phlebotomy: time venipuncture completed (repeat draw, 24-hr time) (calc)",0.0
+V00SEAQHR1,"EV:Laboratory processing: time at start of serum aliquoting (first draw, 24-hour time) (calc)",0.0
+V00SEAQHR2,"EV:Laboratory processing: time at start of serum aliquoting (repeat draw, 24-hour time) (calc)",0.0
+V00PLAQHR1,"EV:Laboratory processing: time at start of plasma aliquoting (first draw, 24-hr time) (calc)",0.0
+V00PLAQHR2,"EV:Laboratory processing: time at start of plasma aliquoting (repeat draw, 24-hour time) (calc)",0.0
+V00URINOB1,EV:Urine collection: specimen obtained (first collection) (calc),0.0
+V00URINOB2,EV:Urine collection: specimen obtained (repeat collection) (calc),0.0
+V00VOID1,EV:Urine collection: which void(s) collected (first collection) (calc),0.0
+V00VOID2,EV:Urine collection: which void(s) collected (repeat collection) (calc),0.0
+V00ILLPWK1,"EV:Phlebotomy: had illness in past week requiring antibiotics, hospitalization or steroids (first draw) (calc)",1.0
+V00ILLPWK2,"EV:Phlebotomy: had illness in past week requiring antibiotics, hospitalization or steroids (repeat draw) (calc)",1.0
+V00HOURSP1,EV:Phlebotomy: how many hours passed since last ate any food before blood draw (first draw) (calc),0.0
+V00HOURSP2,EV:Phlebotomy: how many hours passed since last ate any food before blood draw (repeat draw) (calc),0.0
+V00QOVP1,EV:Phlebotomy: quality of venipuncture (first draw) (calc),0.0
+V00QOVP2,EV:Phlebotomy: quality of venipuncture (repeat draw) (calc),0.0
+V00VCOLL1,"EV:Phlebotomy: traumatic venipuncture, vein collapse (first draw) (calc)",0.0
+V00VCOLL2,"EV:Phlebotomy: traumatic venipuncture, vein collapse (repeat draw) (calc)",0.0
+V00HEMAT1,"EV:Phlebotomy: traumatic venipuncture, hematoma (first draw) (calc)",0.0
+V00HEMAT2,"EV:Phlebotomy: traumatic venipuncture, hematoma (repeat draw) (calc)",0.0
+V00VEIN1,"EV:Phlebotomy: traumatic venipuncture, vein hard to get (first draw) (calc)",0.0
+V00VEIN2,"EV:Phlebotomy: traumatic venipuncture, vein hard to get (repeat draw) (calc)",0.0
+V00MULTST1,"EV:Phlebotomy: traumatic venipuncture, multiple sticks (first draw) (calc)",0.0
+V00MULTST2,"EV:Phlebotomy: traumatic venipuncture, multiple sticks (repeat draw) (calc)",0.0
+V00EXCESS1,"EV:Phlebotomy: traumatic venipuncture, excessive duration of draw (first draw) (calc)",0.0
+V00EXCESS2,"EV:Phlebotomy: traumatic venipuncture, excessive duration of draw (repeat draw) (calc)",0.0
+V00LEAKAG1,"EV:Phlebotomy: traumatic venipuncture, leakage at venipuncture site (first draw) (calc)",0.0
+V00LEAKAG2,"EV:Phlebotomy: traumatic venipuncture, leakage at venipuncture site (repeat draw) (calc)",0.0
+V00OTHVP1,"EV:Phlebotomy: traumatic venipuncture, other (first draw) (calc)",0.0
+V00OTHVP2,"EV:Phlebotomy: traumatic venipuncture, other (repeat draw) (calc)",0.0
+V00BLDRAW1,EV:Phlebotomy: any blood drawn (first draw) (calc),0.0
+V00BLDRAW2,EV:Phlebotomy: any blood drawn (repeat draw) (calc),0.0
+V00HRSUC1,EV:Urine collection: hours since ate food before collection (first collection) (calc),0.0
+V00HRSUC2,EV:Urine collection: hours since ate food before collection (repeat collection) (calc),0.0
+P01SVXRRID,SV:Baseline knee x-ray: clinical center reader ID # (calc),0.0
+P01SVXRRKR,SV:Right knee baseline x-ray: evidence of knee replacement  (calc),1.0
+P01SVXRLKR,SV:Left knee baseline x-ray: evidence of knee replacement (calc),1.0
+P01SVRKOST,SV:Right knee baseline x-ray: evidence of knee osteophytes (calc),1.0
+P01SVLKOST,SV:Left knee baseline x-ray: evidence of knee osteophytes (calc),1.0
+P01SVRKJSM,SV:Right knee baseline x-ray: evidence of knee medial joint space narrowing (calc),1.0
+P01SVLKJSM,SV:Left knee baseline x-ray: evidence of knee medial joint space narrowing (calc),1.0
+P01SVRKJSL,SV:Right knee baseline x-ray: evidence of knee lateral joint space narrowing (calc),1.0
+P01SVLKJSL,SV:Left knee baseline x-ray: evidence of knee lateral joint space narrowing (calc),1.0
+P01SVRKMI,SV:Right knee baseline x-ray: evidence of knee metal artifacts (calc),1.0
+P01SVLKMI,SV:Left knee baseline x-ray: evidence of knee metal artifacts (calc),1.0
+P01SVXRELK,SV:Baseline knee x-ray: knee(s) eligible for MRI based on x-ray (calc),0.0
+P01XRKOA,SV:Baseline radiographic knee OA status by person (calc),0.0
+P01RXRKOA2,SV:Right knee baseline x-ray: osteophytes and JSN (calc),1.0
+P01LXRKOA2,SV:Left knee baseline x-ray: osteophytes and JSN (calc),1.0
+V00XRBCODE,SV:Paired x-ray reading: barcode of P01 x-ray (Image Sample B),1.0
+V00XROSFLR,SV:Right knee paired x-ray reading: osteophytes (OARSI grades 0-3) femur lateral compartment (Image Sample B),1.0
+V00XRSCFLR,SV:Right knee paired x-ray reading: sclerosis (OARSI grades 0-3) femur lateral compartment (Image Sample B),1.0
+V00XRCYFLR,SV:Right knee paired x-ray reading: cysts (Grades 0-1) femur lateral compartment (Image Sample B),1.0
+V00XRJSLR,SV:Right knee paired x-ray reading: joint space narrowing (OARSI grades 0-3) lateral compartment (Image Sample B),1.0
+V00XRCHLR,SV:Right knee paired x-ray reading: chondrocalcinosis (Grades 0-1) lateral compartment (Image Sample B),1.0
+V00XROSTLR,SV:Right knee paired x-ray reading: osteophytes (OARSI grades 0-3) tibia lateral compartment (Image Sample B),1.0
+V00XRSCTLR,SV:Right knee paired x-ray reading: sclerosis (OARSI grades 0-3) tibia lateral compartment (Image Sample B),1.0
+V00XRCYTLR,SV:Right knee paired x-ray reading: cysts (Grades 0-1) tibia lateral compartment (Image Sample B),1.0
+V00XRATTLR,SV:Right knee paired x-ray reading: attrition (OARSI grades 0-3) tibia lateral compartment (Image Sample B),1.0
+V00XROSFMR,SV:Right knee paired x-ray reading: osteophytes (OARSI grades 0-3) femur medial compartment (Image Sample B),1.0
+V00XRSCFMR,SV:Right knee paired x-ray reading: sclerosis (OARSI grades 0-3) femur medial compartment (Image Sample B),1.0
+V00XRCYFMR,SV:Right knee paired x-ray reading: cysts (Grades 0-1) femur medial compartment (Image Sample B),1.0
+V00XRJSMR,SV:Right knee paired x-ray reading: joint space narrowing (OARSI grades 0-3) medial compartment (Image Sample B),1.0
+V00XRCHMR,SV:Right knee paired x-ray reading: chondrocalcinosis (Grades 0-1) medial compartment (Image Sample B),1.0
+V00XROSTMR,SV:Right knee paired x-ray reading: osteophytes (OARSI grades 0-3) tibia medial compartment (Image Sample B),1.0
+V00XRSCTMR,SV:Right knee paired x-ray reading: sclerosis (OARSI grades 0-3) tibia medial compartment (Image Sample B),1.0
+V00XRCYTMR,SV:Right knee paired x-ray reading: cysts (Grades 0-1) tibia medial compartment (Image Sample B),1.0
+V00XRATTMR,SV:Right knee paired x-ray reading: attrition (OARSI grades 0-3) tibia medial compartment (Image Sample B),1.0
+V00XRKLR,SV:Right knee paired x-ray reading: Kellgren and Lawrence (Grades 0-4) (Image Sample B),1.0
+V00XROSFML,SV:Left knee paired x-ray reading: osteophytes (OARSI grades 0-3) femur medial compartment (Image Sample B),1.0
+V00XRSCFML,SV:Left knee paired x-ray reading: sclerosis (OARSI grades 0-3) femur medial compartment (Image Sample B),1.0
+V00XRCYFML,SV:Left knee paired x-ray reading: cysts (Grades 0-1) femur medial compartment (Image Sample B),1.0
+V00XRJSML,SV:Left knee paired x-ray reading: joint space narrowing (OARSI grades 0-3) medial compartment (Image Sample B),1.0
+V00XRCHML,SV:Left knee paired x-ray reading: chondrocalcinosis (Grades 0-1) medial compartment (Image Sample B),1.0
+V00XROSTML,SV:Left knee paired x-ray reading: osteophytes (OARSI grades 0-3) tibia medial compartment (Image Sample B),1.0
+V00XRSCTML,SV:Left knee paired x-ray reading: sclerosis (OARSI grades 0-3) tibia medial compartment (Image Sample B),1.0
+V00XRCYTML,SV:Left knee paired x-ray reading: cysts (Grades 0-1) tibia medial compartment (Image Sample B),1.0
+V00XRATTML,SV:Left knee paired x-ray reading: attrition (OARSI grades 0-3) tibia medial compartment (Image Sample B),1.0
+V00XRKLL,SV:Left knee paired x-ray reading: Kellgren and Lawrence (Grades 0-4) (Image Sample B),1.0
+V00XROSFLL,SV:Left knee paired x-ray reading: osteophytes (OARSI grades 0-3) femur lateral compartment (Image Sample B),1.0
+V00XRSCFLL,SV:Left knee paired x-ray reading: sclerosis (OARSI grades 0-3) femur lateral compartment (Image Sample B),1.0
+V00XRCYFLL,SV:Left knee paired x-ray reading: cysts (Grades 0-1) femur lateral compartment (Image Sample B),1.0
+V00XRJSLL,SV:Left knee paired x-ray reading: joint space narrowing (OARSI grades 0-3) lateral compartment (Image Sample B),1.0
+V00XRCHLL,SV:Left knee paired x-ray reading: chondrocalcinosis (Grades 0-1) lateral compartment (Image Sample B),1.0
+V00XROSTLL,SV:Left knee paired x-ray reading: osteophytes (OARSI grades 0-3) tibia lateral compartment (Image Sample B),1.0
+V00XRSCTLL,SV:Left knee paired x-ray reading: sclerosis (OARSI grades 0-3) tibia lateral compartment (Image Sample B),1.0
+V00XRCYTLL,SV:Left knee paired x-ray reading: cysts (Grades 0-1) tibia lateral compartment (Image Sample B),1.0
+V00XRATTLL,SV:Left knee paired x-ray reading: attrition (OARSI grades 0-3) tibia lateral compartment (Image Sample B),1.0
+P01OAGRDR,SV:Right knee baseline x-ray: composite OA grade (quasi KL grade) (calc),1.0
+V00BLDCOLL,EV:Phlebotomy: which draw(s) blood obtained at (calc),0.0
+V00UCDATE2,EV:Urine collection: date of sample collection (repeat collection) (calc),0.0
+V00URNCOLL,EV:Urine collection: which sample collection(s) specimen obtained at (calc),0.0
+V00PDATE2,EV:Phlebotomy: date of blood draw (repeat draw) (calc),0.0
+V00PDATE1,EV:Phlebotomy: date of blood draw (first draw) (calc),0.0
+V00UCDATE1,EV:Urine collection: date of sample collection (first collection) (calc),0.0
+P01OAGRDL,SV:Left knee baseline x-ray: composite OA grade (quasi KL grade) (calc),1.0
+V00BLSURD2,EV:Phlebotomy: days between most recent surgery and blood draw (repeat draw) (calc),0.0
+V00URSURD2,EV:Urine collection: days between most recent surgery and collection (repeat collection) (calc),0.0
+V00BLSURD1,EV:Phlebotomy: days between most recent surgery and blood draw (first draw) (calc),0.0
+V00URSURD1,EV:Urine collection: days between most recent surgery and collection (first collection) (calc),0.0
+V00MRSEQNR,"EV MRI:Right knee, number of unique OAI standard MRI sequences obtained (calc)",0.0
+V00MRSEQNL,"EV MRI:Left knee, number of unique OAI standard MRI sequences obtained (calc)",0.0
+V00SERUM,EV:Phlebotomy: which draw(s) serum obtained at (calc),0.0
+V00EDTA,EV:Phlebotomy: which draw(s) EDTA obtained at (calc),0.0
+V00CITRATE,EV:Phlebotomy: which draw(s) citrate obtained at (calc),0.0
+P02KPN,"IEI:Q9.Either knee pain, aching or stiffness: any, past 12 months (used for study eligibility)",1.0
+P01KPNREV,"SV:Q14.Right knee pain, aching or stiffness: ever had more than half the days of a month",1.0
+P01KPNREVY,"SV:Q14a.Right knee pain, aching or stiffness: started about how many years ago",1.0
+P01KPNR12,"SV:Q15.Right knee pain, aching or stiffness: any, past 12 months",1.0
+P01KPNR12M,"SV:Q15ai.Right knee pain, aching or stiffness: how many months on more than half the days of a month, past 12 months",1.0
+P01KPNLEV,"SV:Q17.Left knee pain, aching or stiffness: ever had more than half the days of a month",1.0
+P01KPNLEVY,"SV:Q17a.Left knee pain, aching or stiffness: started about how many years ago",1.0
+P01KPNL12,"SV:Q18.Left knee pain, aching or stiffness: any, past 12 months",1.0
+P01KPNL12M,"SV:Q18ai.Left knee pain, aching or stiffness: how many months on more than half the days of a month, past 12 months",1.0
+P01KPACT30,"SV:Q20.Either knee, limit activities due to pain, aching or stiffness, past 30 days",1.0
+P01HPNR12,"SV:Q38.Right hip pain, aching or stiffness: any, past 12 months (includes pain in groin and in front and sides of upper thigh)",1.0
+P01HPNRIL,"SV:Q38ai.Right hip pain, aching or stiffness location: groin/inside leg near hip",1.0
+P01HPNROL,"SV:Q38ai.Right hip pain, aching or stiffness location: outside of leg near hip",1.0
+P01HPNRFL,"SV:Q38ai.Right hip pain, aching or stiffness location: front of leg near hip",1.0
+P01HPNRB,"SV:Q38ai.Right hip pain, aching or stiffness location: buttocks",1.0
+P01HPNRLB,"SV:Q38ai.Right hip pain, aching or stiffness location: lower back",1.0
+P01HPNRDK,"SV:Q38ai.Right hip pain, aching or stiffness location: don't know",1.0
+P01HPNL12,"SV:Q39.Left hip pain, aching or stiffness: any, past 12 months (includes pain in groin and in front and sides of upper thigh)",1.0
+P01HPNLIL,"SV:Q39ai.Left hip pain, aching or stiffness location: groin/inside leg near hip",1.0
+P01HPNLOL,"SV:Q39ai.Left hip pain, aching or stiffness location: outside of leg near hip",1.0
+P01HPNLFL,"SV:Q39ai.Left hip pain, aching or stiffness location: front of leg near hip",1.0
+P01HPNLB,"SV:Q39ai.Left hip pain, aching or stiffness location: buttocks",1.0
+P01HPNLLB,"SV:Q39ai.Left hip pain, aching or stiffness location: lower back",1.0
+P01HPNLDK,"SV:Q39ai.Left hip pain, aching or stiffness location: don't know",1.0
+P01BP30,"SV:Q43.Any back pain, past 30 days",1.0
+P01BP30OFT,"SV:Q43a.How often bothered by back pain, past 30 days",1.0
+P01BPBAD,"SV:Q43b.When had back pain how bad was it on average, past 30 days",1.0
+P01BPUB,"SV:Q43c.Back pain location, upper back",1.0
+P01BPMB,"SV:Q43c.Back pain location, middle back",1.0
+P01BPLB,"SV:Q43c.Back pain location, lower back",1.0
+P01BPB,"SV:Q43c.Back pain location, buttocks",1.0
+P01BPDK,"SV:Q43c.Back pain location, don't know",1.0
+P01OJPNRS,"SV:Q44.Right shoulder pain, aching or stiffness: more than half the days, past 30 days",1.0
+P01OJPNLS,"SV:Q44.Left shoulder pain, aching or stiffness: more than half the days, past 30 days",1.0
+P01OJPNRE,"SV:Q44.Right elbow pain, aching or stiffness: more than half the days, past 30 days",1.0
+P01OJPNLE,"SV:Q44.Left elbow pain, aching or stiffness: more than half the days, past 30 days",1.0
+P01OJPNRW,"SV:Q44.Right wrist pain, aching or stiffness: more than half the days, past 30 days",1.0
+P01OJPNLW,"SV:Q44.Left wrist pain, aching or stiffness: more than half the days, past 30 days",1.0
+P01OJPNRH,"SV:Q44.Right hand/finger pain, aching or stiffness: more than half the days, past 30 days",1.0
+P01OJPNLH,"SV:Q44.Left hand/finger pain, aching or stiffness: more than half the days, past 30 days",1.0
+P01OJPNRA,"SV:Q44.Right ankle pain, aching or stiffness: more than half the days, past 30 days",1.0
+P01OJPNLA,"SV:Q44.Left ankle pain, aching or stiffness: more than half the days, past 30 days",1.0
+P01OJPNRF,"SV:Q44.Right foot pain, aching or stiffness: more than half the days, past 30 days",1.0
+P01OJPNLF,"SV:Q44.Left foot pain, aching or stiffness: more than half the days, past 30 days",1.0
+P01OJPNNK,"SV:Q44.Neck pain, aching or stiffness: more than half the days, past 30 days",1.0
+P01OJPNNO,"SV:Q44.Other joints pain, aching or stiffness: more than half the days, past 30 days, no, don't know, refused",1.0
+P01TMJE6M,"SV:Q45.TMJ: jaw joint or in front of ear, experienced pain or aching, past 6 months",1.0
+P01TMJEPN1,"SV:Q45a.TMJ: jaw joint or in front of ear, first have pain or aching more than 6 months ago",1.0
+P01TMJE30D,"SV:Q45bi.TMJ: jaw joint or in front of ear, how many days had pain or aching, past 30 days",1.0
+P01TMJE30A,"SV:Q45biii.TMJ: jaw joint or in front of ear, how many days pain or aching keep from doing usual activities (e.g., work, school...), past 30 days",1.0
+P01TMJF6M,"SV:Q46.TMJ: across face or cheek, experienced pain or aching, past 6 months",1.0
+P01TMJFPN1,"SV:Q46a.TMJ: across face or cheek, first have pain or aching more than 6 months ago",1.0
+P01TMJF30D,"SV:Q46bi.TMJ: across face or cheek, how many days had pain or aching, past 30 days",1.0
+P01TMJF30A,"SV:Q46biii.TMJ: across face or cheek, how many days pain or aching keep from doing usual activities (e.g., work, school...), past 30 days",1.0
+V00SF1,"SAQ:Q10.SF-12: in general, how is health",1.0
+V00SF2,"SAQ:Q11a.SF-12: how much health limit involvement in moderate activities (e.g., moving a table, pushing vacuum cleaner‚Ä¶)",1.0
+V00SF3,SAQ:Q11b.SF-12: how much health limit climbing several flights of stairs,1.0
+V00SF4,"SAQ:Q12a.SF-12: how often physical health result in accomplishing less than would like with work or other activities, past 4 weeks",1.0
+V00SF5,"SAQ:Q12b.SF-12: how often physical health result in being limited in kind of work or other activities, past 4 weeks",1.0
+V00SF6,"SAQ:Q13a.SF-12: how often emotional problems result in accomplishing less than would like with work or other activities, past 4 weeks",1.0
+V00SF7,"SAQ:Q13b.SF-12: how often emotional problems result in not doing work or activities as carefully as usual, past 4 weeks",1.0
+V00SF8,"SAQ:Q14.SF-12: how much did pain interfere with normal work (include work outside home and housework), past 4 weeks",1.0
+V00SF9,"SAQ:Q15a.SF-12: how often felt calm and peaceful, past 4 weeks",1.0
+V00SF10,"SAQ:Q15b.SF-12: how often had a lot of energy, past 4 weeks",1.0
+V00SF11,"SAQ:Q15c.SF-12: how often felt downhearted and depressed, past 4 weeks",1.0
+V00SF12,"SAQ:Q16.SF-12: how often physical health or emotional problems interfered with social activities (like visiting with friends...), past 4 weeks",1.0
+V00WPRKN1,"EV:Right knee pain: walking, last 7 days",1.0
+V00WPRKN2,"EV:Right knee pain: stairs, last 7 days",1.0
+V00WPRKN3,"EV:Right knee pain: in bed, last 7 days",1.0
+V00WPRKN4,"EV:Right knee pain: sit or lie down, last 7 days",1.0
+V00WPRKN5,"EV:Right knee pain: standing, last 7 days",1.0
+V00KPRKN1,"EV:Q2a.Right knee pain: twisting/pivoting on knee, last 7 days",1.0
+V00KPRKN2,"EV:Q2b.Right knee pain: straightening knee fully, last 7 days",1.0
+V00KPRKN3,"EV:Q2c.Right knee pain: bending knee fully, last 7 days",1.0
+V00P7RKFR,EV:Q3.Right knee pain: how often,1.0
+V00WSRKN1,"EV:Right knee stiffness: in morning, last 7 days",1.0
+V00WSRKN2,"EV:Right knee stiffness: later in day, last 7 days",1.0
+V00KSXRKN1,"EV:Q6.Right knee symptoms: swelling, last 7 days",1.0
+V00KSXRKN2,"EV:Q7.Right knee symptoms: feel grinding, hear clicking or any other type of noise when knee moves, last 7 days",1.0
+V00KSXRKN3,"EV:Q8.Right knee symptoms: knee catch or hang up when moving, last 7 days",1.0
+V00KSXRKN4,"EV:Q9.Right knee symptoms: straighten knee fully, last 7 days",1.0
+V00KSXRKN5,"EV:Q10.Right knee symptoms: bend knee fully, last 7 days",1.0
+V00DIRKN1,"EV:Right knee difficulty: down stairs, last 7 days",1.0
+V00DIRKN2,"EV:Right knee difficulty: up stairs, last 7 days",1.0
+V00DIRKN3,"EV:Right knee difficulty: stand from sitting, last 7 days",1.0
+V00DIRKN4,"EV:Right knee difficulty: standing, last 7 days",1.0
+V00DIRKN5,"EV:Right knee difficulty: bending, last 7 days",1.0
+V00DIRKN6,"EV:Right knee difficulty: walking, last 7 days",1.0
+V00DIRKN7,"EV:Right knee difficulty: in car/out of car, last 7 days",1.0
+V00DIRKN8,"EV:Right knee difficulty: shopping, last 7 days",1.0
+V00DIRKN9,"EV:Right knee difficulty: socks on, last 7 days",1.0
+V00DIRKN10,"EV:Right knee difficulty: get out of bed, last 7 days",1.0
+V00DIRKN11,"EV:Right knee difficulty: socks off, last 7 days",1.0
+V00DIRKN12,"EV:Right knee difficulty: lying down, last 7 days",1.0
+V00DIRKN13,"EV:Right knee difficulty: get in/out of bathtub, last 7 days",1.0
+V00DIRKN14,"EV:Right knee difficulty: sitting, last 7 days",1.0
+V00DIRKN15,"EV:Right knee difficulty: on/off toilet, last 7 days",1.0
+V00DIRKN16,"EV:Right knee difficulty: heavy chores, last 7 days",1.0
+V00DIRKN17,"EV:Right knee difficulty: light chores, last 7 days",1.0
+V00WPLKN1,"EV:Left knee pain: walking, last 7 days",1.0
+V00WPLKN2,"EV:Left knee pain: stairs, last 7 days",1.0
+V00WPLKN3,"EV:Left knee pain: in bed, last 7 days",1.0
+V00WPLKN4,"EV:Left knee pain: sit or lie down, last 7 days",1.0
+V00WPLKN5,"EV:Left knee pain: standing, last 7 days",1.0
+V00KPLKN1,"EV:Q13a.Left knee pain: twisting/pivoting on knee, last 7 days",1.0
+V00KPLKN2,"EV:Q13b.Left knee pain: straightening knee fully, last 7 days",1.0
+V00KPLKN3,"EV:Q13c.Left knee pain: bending knee fully, last 7 days",1.0
+V00P7LKFR,EV:Q14.Left knee pain: how often,1.0
+V00WSLKN1,"EV:Left knee stiffness: in morning, last 7 days",1.0
+V00WSLKN2,"EV:Left knee stiffness: later in day, last 7 days",1.0
+V00KSXLKN1,"EV:Q17.Left knee symptoms: swelling, last 7 days",1.0
+V00KSXLKN2,"EV:Q18.Left knee symptoms: feel grinding, hear clicking or any other type of noise when knee moves, last 7 days",1.0
+V00KSXLKN3,"EV:Q19.Left knee symptoms: knee catch or hang up when moving, last 7 days",1.0
+V00KSXLKN4,"EV:Q20.Left knee symptoms: straighten knee fully, last 7 days",1.0
+V00KSXLKN5,"EV:Q21.Left knee symptoms: bend knee fully, last 7 days",1.0
+V00DILKN1,"EV:Left knee difficulty: down stairs, last 7 days",1.0
+V00DILKN2,"EV:Left knee difficulty: up stairs, last 7 days",1.0
+V00DILKN3,"EV:Left knee difficulty: stand from sitting, last 7 days",1.0
+V00DILKN4,"EV:Left knee difficulty: standing, last 7 days",1.0
+V00DILKN5,"EV:Left knee difficulty: bending, last 7 days",1.0
+V00DILKN6,"EV:Left knee difficulty: walking, last 7 days",1.0
+V00DILKN7,"EV:Left knee difficulty: in car/out of car, last 7 days",1.0
+V00DILKN8,"EV:Left knee difficulty: shopping, last 7 days",1.0
+V00DILKN9,"EV:Left knee difficulty: socks on, last 7 days",1.0
+V00DILKN10,"EV:Left knee difficulty: get out of bed, last 7 days",1.0
+V00DILKN11,"EV:Left knee difficulty: socks off, last 7 days",1.0
+V00DILKN12,"EV:Left knee difficulty: lying down, last 7 days",1.0
+V00DILKN13,"EV:Left knee difficulty: get in/out of bathtub, last 7 days",1.0
+V00DILKN14,"EV:Left knee difficulty: sitting, last 7 days",1.0
+V00DILKN15,"EV:Left knee difficulty: on/off toilet, last 7 days",1.0
+V00DILKN16,"EV:Left knee difficulty: heavy chores, last 7 days",1.0
+V00DILKN17,"EV:Left knee difficulty: light chores, last 7 days",1.0
+V00KOOSFX1,"EV:Q23a.Either knee difficulty: squatting, last 7 days",1.0
+V00KOOSFX2,"EV:Q23b.Either knee difficulty: running, last 7 days",1.0
+V00KOOSFX3,"EV:Q23c.Either knee difficulty: jumping, last 7 days",1.0
+V00KOOSFX4,"EV:Q23d.Either knee difficulty: twisting/pivoting on injured knee, last 7 days",1.0
+V00KOOSFX5,"EV:Q23e.Either knee difficulty: kneeling, last 7 days",1.0
+V00KQOL1,EV:Q24.Quality of life: how often aware of problems with knee(s),1.0
+V00KQOL2,EV:Q25.Quality of life: modified lifestyle to avoid potentially damaging activities to knee(s),1.0
+V00KQOL3,EV:Q26.Quality of life: how much troubled with lack of confidence in knee(s),1.0
+V00KQOL4,"EV:Q27.Quality of life: in general, how much difficulty have with knee(s)",1.0
+V00KGLRS,"EV:Q28.Considering all ways knee pain and arthritis affect you, how are you doing today? Rated on scale of 0-10",1.0
+P02KPNRCV,"IEI:Q9a.Right knee pain, aching or stiffness: more than half the days of a month, past 12 months (calc, used for study eligibility)",1.0
+P02KPNLCV,"IEI:Q9b.Left knee pain, aching or stiffness: more than half the days of a month, past 12 months (calc, used for study eligibility)",1.0
+P01KPR30CV,"SV:Q16a.Right knee pain, aching or stiffness: more than half the days, past 30 days (calc)",1.0
+P01KPL30CV,"SV:Q19a.Left knee pain, aching or stiffness: more than half the days, past 30 days (calc)",1.0
+P01KPACTCV,"SV:Either knee, limits or avoids activities due to pain, aching or stiffness, past 30 days (calc)",1.0
+P01HPR12CV,"SV:Q38a.Right hip pain, aching or stiffness: more than half the days of a month, past 12 months (calc)",1.0
+P01HPL12CV,"SV:Q39a.Left hip pain, aching or stiffness: more than half the days of a month, past 12 months (calc)",1.0
+P01BPTOT,"SV:Total days in bed and/or limited activity due to back pain, past 30 days (calc)",1.0
+V00HSPSS,SAQ:SF-12: physical summary scale for the MOS 12-item short-form health survey (SF-12) v2 (calc),1.0
+V00HSMSS,SAQ:SF-12: mental summary scale for the MOS 12-item short-form health survey (SF-12) v2 (calc),1.0
+V00WOMKPR,EV:Right knee: WOMAC Pain Score (calc),1.0
+V00KOOSKPR,EV:Right knee: KOOS Pain Score (calc),1.0
+V00WOMSTFR,EV:Right knee: WOMAC Stiffness Score (calc),1.0
+V00KOOSYMR,EV:Right knee: KOOS Symptoms Score (calc),1.0
+V00WOMADLR,EV:Right knee: WOMAC Disability Score (calc),1.0
+V00WOMKPL,EV:Left knee: WOMAC Pain Score (calc),1.0
+V00KOOSKPL,EV:Left knee: KOOS Pain Score (calc),1.0
+V00WOMSTFL,EV:Left knee: WOMAC Stiffness Score (calc),1.0
+V00KOOSYML,EV:Left knee: KOOS Symptoms Score (calc),1.0
+V00WOMADLL,EV:Left knee: WOMAC Disability Score (calc),1.0
+V00KOOSFSR,"EV:KOOS Function, Sports, and Recreational Activities Score (calc)",1.0
+V00KOOSQOL,EV:KOOS Quality of Life Score (calc),1.0
+P01SXKOA,"SV:Baseline symptomatic knee OA status by person (calc, used for study elig (>0) and in OAI definition of cohort status)",1.0
+P01KPR12CV,"SV:Q15a.Right knee pain, aching or stiffness: more than half the days of a month, past 12 months (calc)",1.0
+P01KPL12CV,"SV:Q18a.Left knee pain, aching or stiffness: more than half the days of a month, past 12 months (calc)",1.0
+P01KPA30CV,"SV:Q20b.Either knee, avoid/reduce pain, aching or stiffness by changing or cutting back on normal activities, past 30 days (calc)",1.0
+V00P7RKRCV,"EV:Q3a.Right knee pain: severity, past 7 days, rated on scale of 0-10 (calc)",1.0
+V00P7LKRCV,"EV:Q14a.Left knee pain: severity, past 7 days, rated on scale of 0-10 (calc)",1.0
+P01PMRKRCV,"SV:Q16b.Right knee pain: severity, past 30 days, rated on scale of 0-10 (calc)",1.0
+P01PMLKRCV,"SV:Q19b.Left knee pain: severity, past 30 days, rated on scale of 0-10 (calc)",1.0
+P01TJE30CV,"SV:Q45b.TMJ: jaw joint or in front of ear, experienced pain or aching, past 30 days (calc)",1.0
+P01TJF30CV,"SV:Q46b.TMJ: across face or cheek, experienced pain or aching, past 30 days (calc)",1.0
+P01TJE30WC,"SV:Q45bii.TMJ: jaw joint or in front of ear, how often worried or concerned about pain or aching, past 30 days (calc)",1.0
+P01TJF30WC,"SV:Q46bii.TMJ: across face or cheek, how often worried or concerned about pain or aching, past 30 days (calc)",1.0
+V00WOMTSL,EV:Left knee: WOMAC Total Score (calc),1.0
+V00WOMTSR,EV:Right knee: WOMAC Total Score (calc),1.0
+P01RKSX,"SV:Right knee baseline symptom status (combines past 30 days and 12 months, calc, used in OAI definition of symptomatic knee OA)",1.0
+P01LKSX,"SV:Left knee baseline symptom status (combines past 30 days and 12 months, calc, used in OAI definition of symptomatic knee OA)",1.0
+P01LSXKOA,SV:Left knee baseline symptomatic OA status (calc),1.0
+P01RSXKOA,SV:Right knee baseline symptomatic OA status (calc),1.0
+P01BPDAYCV,"SV:Q43dii.How many days limit activities due to back pain, past 30 days (calc)",1.0
+P01BPBEDCV,"SV:Q43di.How many days stay in bed due to back pain, past 30 days (calc)",1.0
+P01BPACTCV,"SV:Q43d.Limit activities due to back pain, past 30 days (calc)",1.0
+P01KSX,SV:Frequent knee pain status by person (calc),1.0
+P01BL12SXL,"SV:Left knee baseline frequent knee pain status (IEI, SV, both, or neither) (calc)",1.0
+P01BL12SXR,"SV:Right knee baseline frequent knee pain status (IEI, SV, both, or neither) (calc)",1.0
+P01KPACDCV,"SV:Q20a.Either knee, how many days limit activities due to pain, aching or stiffness, past 30 days (calc)",1.0
+P01LKP30CV,"SV:Q19.Left knee pain, aching or stiffness: any, past 30 days (calc)",1.0
+P01RKP30CV,"SV:Q16.Right knee pain, aching or stiffness: any, past 30 days (calc)",1.0
+P02KPMED,"IEI:Q10.Either knee, used medication for pain, aching or stiffness, past 12 months",1.0
+P02KINJ,"IEI:Q11.Either knee, ever injured so badly difficult to walk for at least one week (used for study eligibility)",1.0
+P02KSURG,"IEI:Q12.Either knee, history of knee surgery (incl. arthroscopy, ligament repair, meniscectomy; used for study elig.)",1.0
+P02CNCR3,"IEI:Q19.Treated for cancer or been told by doctor that you had cancer or malignant tumor, past 3 years",1.0
+P02CNC3,"IEI:Q20a.Cancer type: breast, self-reported",1.0
+P02CNC4,"IEI:Q20a.Cancer type: cervical, self-reported",1.0
+P02CNC13,"IEI:Q20a.Cancer type: prostate, self-reported",1.0
+P02CNC14,"IEI:Q20a.Cancer type: rectal, self-reported",1.0
+P02CNC15,"IEI:Q20a.Cancer type: skin, self-reported",1.0
+P02CNMEL,"IEI:Q20a.Cancer type: nonmelanoma skin cancer, self-reported",1.0
+P02CSY,IEI:Q20b.Cancer removed by surgery: yes or watchful waiting for prostate cancer,1.0
+P02CMN,IEI:Q20c.Doctor said cancer spread to other parts of body: no,1.0
+P02CMDK,IEI:Q20c.Doctor said cancer spread to other parts of body: don't know,1.0
+P01RAIA,SV:Q1.Doctor ever said you have rheumatoid arthritis or other inflammatory arthritis,1.0
+P01RAJS1HR,SV:Q2.RA symptoms: ever had joint stiffness in any joints lasting at least one hour in the morning,1.0
+P01RAFT6R,"SV:Q4b.RA symptoms: right fingers or thumb swelling, ever had lasting more than 6 weeks",1.0
+P01RAFT6L,"SV:Q4b.RA symptoms: left fingers or thumb swelling, ever had lasting more than 6 weeks",1.0
+P01RAKN6R,"SV:Q4d.RA symptoms: right knee swelling, ever had lasting more than 6 weeks",1.0
+P01RAKN6L,"SV:Q4d.RA symptoms: left knee swelling, ever had lasting more than 6 weeks",1.0
+P01RA3YES,"SV:Q5.RA symptoms: 3 or more Yes responses to questions #2a, #3, and #4a - d",1.0
+P01RA1YES,SV:Q6.RA symptoms: at least one Yes response for any wrist or finger in question #4a - b,1.0
+P01RARLYES,"SV:Q7.RA symptoms: both right and left marked Yes for wrist, fingers, elbow or knee in question #4a - d",1.0
+P01RATEST,SV:Q8.RA Symptoms: ever had blood test for rheumatoid arthritis,1.0
+P01RATOT3,SV:Q9.RA symptoms: total score more than 3,1.0
+P01ARTHOTH,SV:Q10.Doctor ever said you have some other type of arthritis,1.0
+P01ARTDOC,SV:Q11.Currently seeing doctor or other health care professional for arthritis,1.0
+P01KPMED,"SV:Q21.Either knee, used medication for pain, aching or stiffness, past 12 months",1.0
+P01INJR,"SV:Q24.Right knee, ever injured badly enough to limit ability to walk for at least two days",1.0
+P01INJR1,"SV:Q24ai.Right knee, how old at first injury",1.0
+P01INJR2,"SV:Q24aii.Right knee, how old at second injury",1.0
+P01INJR3,"SV:Q24aiii.Right knee, how old at third injury",1.0
+P01KSURGR,"SV:Q25.Right knee, ever have surgery or arthroscopy",1.0
+P01KRSR,"SV:Q26.Right knee, ever have replacement surgery where all or part of joint was replaced",1.0
+P01KRSRA,"SV:Q26a.Right knee, how old when first had replaced",1.0
+P01ARTR,"SV:Q27.Right knee, ever have arthroscopy (where they put a scope in knee)",1.0
+P01ARTR1,"SV:Q27ai.Right knee, how old at first arthroscopy",1.0
+P01ARTR2,"SV:Q27aii.Right knee, how old at second arthroscopy",1.0
+P01ARTR3,"SV:Q27aiii.Right knee, how old at third arthroscopy",1.0
+P01ARTRINJ,"SV:Q27b.Right knee, was at least one arthroscopy to repair injury",1.0
+P01MENR,"SV:Q28.Right knee, ever have meniscectomy (where they repaired or cut away torn meniscus or cartilage)",1.0
+P01MENR1,"SV:Q28ai.Right knee, how old at first meniscectomy",1.0
+P01MENR2,"SV:Q28aii.Right knee, how old at second meniscectomy",1.0
+P01MENR3,"SV:Q28aiii.Right knee, how old at third meniscectomy",1.0
+P01MENRINJ,"SV:Q28b.Right knee, was at least one meniscectomy to repair an injury",1.0
+P01LRR,"SV:Q29.Right knee, ever have ligament repair surgery",1.0
+P01LRR1,"SV:Q29ai.Right knee, how old at first ligament repair surgery",1.0
+P01LRR2,"SV:Q29aii.Right knee, how old at second ligament repair surgery",1.0
+P01LRR3,"SV:Q29aiii.Right knee, how old at third ligament repair surgery",1.0
+P01OTSURGR,"SV:Q30.Right knee, ever have any other kind of surgery",1.0
+P01OTSR1,"SV:Q30bi.Right knee, how old at first other surgery",1.0
+P01OTSR2,"SV:Q30bii.Right knee, how old at second other surgery",1.0
+P01OTSR3,"SV:Q30biii.Right knee, how old at third other surgery",1.0
+P01OTSRINJ,"SV:Q30c.Right knee, was at least one other surgery to repair an injury",1.0
+P01INJL,"SV:Q31.Left knee, ever injured badly enough to limit ability to walk for at least two days",1.0
+P01INJL1,"SV:Q31i.Left knee, how old at first injury",1.0
+P01INJL2,"SV:Q31ii.Left knee, how old at second injury",1.0
+P01INJL3,"SV:Q31iii.Left knee, how old at third injury",1.0
+P01KSURGL,"SV:Q32.Left knee, ever have surgery or arthroscopy",1.0
+P01KRSL,"SV:Q33.Left knee, ever have replacement where all or part of joint was replaced",1.0
+P01KRSLA,"SV:Q33a.Left knee, how old when first had replaced",1.0
+P01ARTL,"SV:Q34.Left knee, ever have arthroscopy (where they put a scope in knee)",1.0
+P01ARTL1,"SV:Q34ai.Left knee, how old at first arthroscopy",1.0
+P01ARTL2,"SV:Q34aii.Left knee, how old at second arthroscopy",1.0
+P01ARTL3,"SV:Q34aiii.Left knee, how old at third arthroscopy",1.0
+P01ARTLINJ,"SV:Q34b.Left knee, was at least one arthroscopy to repair injury",1.0
+P01MENL,"SV:Q35.Left knee, ever have meniscectomy (where they repaired or cut away torn meniscus or cartilage)",1.0
+P01MENL1,"SV:Q35ai.Left knee, how old at first meniscectomy",1.0
+P01MENL2,"SV:Q35aii.Left knee, how old at second meniscectomy",1.0
+P01MENL3,"SV:Q35aiii.Left knee, how old at third meniscectomy",1.0
+P01MENLINJ,"SV:Q35b.Left knee, was at least one meniscectomy to repair an injury",1.0
+P01LRL,"SV:Q36.Left knee, ever have ligament repair surgery",1.0
+P01LRL1,"SV:Q36ai.Left knee, how old at first ligament repair surgery",1.0
+P01LRL2,"SV:Q36aii.Left knee, how old at second ligament repair surgery",1.0
+P01LRL3,"SV:Q36aiii.Left knee, how old at third ligament repair surgery",1.0
+P01OTSURGL,"SV:Q37.Left knee, ever have any other kind of surgery",1.0
+P01OTSL1,"SV:Q37bi.Left knee, how old at first other surgery",1.0
+P01OTSL2,"SV:Q37bii.Left knee, how old at second other surgery",1.0
+P01OTSL3,"SV:Q37biii.Left knee, how old at third other surgery",1.0
+P01OTSLINJ,"SV:Q37c.Left knee, was at least one other surgery to repair an injury",1.0
+P01HRS,SV:Q40.Ever had hip replacement surgery where all or part of joint was replaced,1.0
+P01HRSR,"SV:Q41.Right hip, ever had replaced",1.0
+P01HRSROA,"SV:Q41a.Right hip replacement reason, osteoarthritis or degenerative arthritis",1.0
+P01HRSRDK,"SV:Q41a.Right hip replacement reason, don't know",1.0
+P01HRSL,"SV:Q42.Left hip, ever had replaced",1.0
+P01HRSLOA,"SV:Q42a.Left hip replacement reason, osteoarthritis or degenerative arthritis",1.0
+P01HRSLDK,"SV:Q42a.Left hip replacement reason, don't know",1.0
+P01PREGEV,SV:Q1.Have you ever been pregnant,1.0
+P01OVREM,SV:Q2.Ever had ovary removed,1.0
+P01OV1AGE,SV:Q2bi.How old when ovary/ovaries removed (first surgery),1.0
+P01OV2AGE,SV:Q2bii.How old when ovary removed (second surgery),1.0
+P01HYS,SV:Q3.Ever had a hysterectomy (surgery to remove uterus or womb),1.0
+P01HYSAGE,SV:Q3a.How old when had hysterectomy,1.0
+P01MENSTR,SV:Q5.When was your last natural menstrual period,1.0
+V00HRTAT,SAQ:Q17.Charlson Comorbidity: ever had heart attack,1.0
+V00HRTFAIL,SAQ:Q18.Charlson Comorbidity: ever treated for heart failure,1.0
+V00BYPLEG,SAQ:Q19.Charlson Comorbidity: had operation to unclog or bypass arteries in legs,1.0
+V00STROKE,"SAQ:Q20.Charlson Comorbidity: had stroke, cerebrovascular accident, blood clot or bleeding in brain, or transient ischemic attack (TIA)",1.0
+V00ASTHMA,SAQ:Q21.Charlson Comorbidity: have asthma,1.0
+V00ASTMEDS,SAQ:Q21a.Charlson Comorbidity: take medicines for asthma,1.0
+V00AMWHEN,SAQ:Q21ai.Charlson Comorbidity: when usually take medicine for asthma,1.0
+V00LUNG,"SAQ:Q22.Charlson Comorbidity: have emphysema, chronic bronchitis, or chronic obstructive lung disease (also called COPD)",1.0
+V00LGMEDS,SAQ:Q22a.Charlson Comorbidity: take medicines for lung disease,1.0
+V00LMWHEN,SAQ:Q22ai.Charlson Comorbidity: when usually take medicine for lung disease,1.0
+V00ULCER,SAQ:Q23.Charlson Comorbidity: have stomach ulcers or peptic ulcer disease,1.0
+V00ULCERDX,"SAQ:Q23a.Charlson Comorbidity: stomach ulcers or peptic ulcer disease diagnosed by endoscopy, upper GI or barium swallow study",1.0
+V00DIAB,SAQ:Q24.Charlson Comorbidity: have diabetes (high blood sugar),1.0
+V00DIABTX1,SAQ:Q24a.Charlson Comorbidity: diabetes treated by modifying diet,1.0
+V00DIABTX2,SAQ:Q24a.Charlson Comorbidity: diabetes treated with medications taken by mouth,1.0
+V00DIABTX3,SAQ:Q24a.Charlson Comorbidity: diabetes treated with insulin injections,1.0
+V00DIABTX4,SAQ:Q24a.Charlson Comorbidity: diabetes not treated/watchful waiting,1.0
+V00DIABPR1,SAQ:Q24b.Charlson Comorbidity: diabetes caused problems with kidneys,1.0
+V00DIABPR2,"SAQ:Q24b.Charlson Comorbidity: diabetes caused problems with eyes, treated by ophthalmologist",1.0
+V00DIABPR3,SAQ:Q24b.Charlson Comorbidity: diabetes has not caused problems,1.0
+V00KIDFXN,"SAQ:Q25a.Charlson Comorbidity: ever had problem with kidneys, poor kidney function (blood tests showed high creatinine)",1.0
+V00KIDTRAN,"SAQ:Q25c.Charlson Comorbidity: ever had problem with kidneys, received kidney transplant",1.0
+V00RA,SAQ:Q26.Charlson Comorbidity: have rheumatoid arthritis,1.0
+V00RAMEDS,SAQ:Q26a.Charlson Comorbidity: take medicines for rheumatoid arthritis regularly,1.0
+V00POLYRH,SAQ:Q28.Charlson Comorbidity: have polymyalgia rheumatica,1.0
+V00LIVDAM,SAQ:Q29b.Charlson Comorbidity: have cirrhosis or serious liver damage,1.0
+V00CANCER,"SAQ:Q29e.Charlson Comorbidity: have cancer, other than skin cancer, leukemia or lymphoma",1.0
+V00BONEFX,SAQ:Q30.Doctor ever said you broke or fractured bone after age 45,1.0
+V00HIPFX,SAQ:Q30a.Doctor ever said you broke or fractured hip,1.0
+V00HIPFXAG,SAQ:Q30ai.How old when doctor first said you broke or fractured hip,1.0
+V00SPNFX,SAQ:Q31.Doctor ever said you fractured spine or vertebrae,1.0
+V00SPNFXAG,SAQ:Q31a.How old when doctor first said you fractured spine or vertebrae,1.0
+V00FALL,"SAQ:Q32.Fallen and landed on floor or ground, past 12 months",1.0
+V00WMXAGE1,SAQ:Q36.Maximum weight: 18-25 years old,1.0
+V00WMXAGE2,SAQ:Q36.Maximum weight: 26-29 years old,1.0
+V00WMXAGE3,SAQ:Q36.Maximum weight: 30-39 years old,1.0
+V00WMXAGE4,SAQ:Q36.Maximum weight: 40-49 years old,1.0
+V00WMXAGE5,SAQ:Q36.Maximum weight: 50-59 years old,1.0
+V00WMXAGE6,SAQ:Q36.Maximum weight: 60-69 years old,1.0
+V00WMXAGE7,SAQ:Q36.Maximum weight: 70 years or older,1.0
+V00WMNAGE1,SAQ:Q38.Minimum weight: 18-25 years old,1.0
+V00WMNAGE2,SAQ:Q38.Minimum weight: 26-29 years old,1.0
+V00WMNAGE3,SAQ:Q38.Minimum weight: 30-39 years old,1.0
+V00WMNAGE4,SAQ:Q38.Minimum weight: 40-49 years old,1.0
+V00WMNAGE5,SAQ:Q38.Minimum weight: 50-59 years old,1.0
+V00WMNAGE6,SAQ:Q38.Minimum weight: 60-69 years old,1.0
+V00WMNAGE7,SAQ:Q38.Minimum weight: 70 years or older,1.0
+V00SMOKE,SAQ:Q39.Have you smoked at least 100 cigarettes (5 packs) in entire life,1.0
+V00SMKAGE,SAQ:Q39a.How old when first started smoking cigarettes fairly regularly,1.0
+V00SMKNEV,SAQ:Q39a.Never smoked cigarettes regularly,1.0
+V00SMKAVE,"SAQ:Q39b.On average of entire time have smoked, how many cigarettes did usually smoke per day",1.0
+V00SMKNOW,SAQ:Q39c.Smoke cigarettes now,1.0
+V00SMKAMT,SAQ:Q39ci.About how many cigarettes smoke per day,1.0
+V00SMKSTOP,SAQ:Q39cii.How old when stopped smoking,1.0
+V00PIPE,"SAQ:Q40.Ever smoked pipe, cigars or cigarillos",1.0
+V00PIPEAGE,"SAQ:Q40a.How old when first started smoking pipe, cigars or cigarillos fairly regularly",1.0
+V00PIPENEV,"SAQ:Q40a.Never smoked pipes, cigars or cigarillos regularly",1.0
+V00PIPENOW,SAQ:Q40b.Smoke pipe or cigar now,1.0
+V00PIPEAMT,"SAQ:Q40bi.About how many pipes, cigars or cigarillos smoke per week",1.0
+V00PIPSTOP,"SAQ:Q40bii.How old when stopped smoking pipe, cigars or cigarillos",1.0
+V00DRNKAMT,"SAQ:Q41.How many alcoholic drinks in typical week, past 12 months",1.0
+V00DRKMORE,"SAQ:Q42.Ever drink more beer, wine or liquor than do now",1.0
+V00CESD1,"SAQ:Q43a.CES-D: how often bothered by things that usually don't bother, past week",1.0
+V00CESD2,"SAQ:Q43b.CES-D: how often did not feel like eating, appetite was poor, past week",1.0
+V00CESD3,"SAQ:Q43c.CES-D: how often felt could not shake off the blues even with help from family and friends, past week",1.0
+V00CESD4,"SAQ:Q43d.CES-D: how often felt just as good as other people, past week",1.0
+V00CESD5,"SAQ:Q43e.CES-D: how often had trouble keeping mind on what was doing, past week",1.0
+V00CESD6,"SAQ:Q43f.CES-D: how often felt depressed, past week",1.0
+V00CESD7,"SAQ:Q43g.CES-D: how often felt that everything did was an effort, past week",1.0
+V00CESD8,"SAQ:Q43h.CES-D: how often felt hopeful about the future, past week",1.0
+V00CESD9,"SAQ:Q43i.CES-D: how often thought my life had been a failure, past week",1.0
+V00CESD10,"SAQ:Q43j.CES-D: how often felt fearful, past week",1.0
+V00CESD11,"SAQ:Q43k.CES-D: how often sleep was restless, past week",1.0
+V00CESD12,"SAQ:Q43l.CES-D: how often was happy, past week",1.0
+V00CESD13,"SAQ:Q43m.CES-D: how often talked less than usual, past week",1.0
+V00CESD14,"SAQ:Q43n.CES-D: how often felt lonely, past week",1.0
+V00CESD15,"SAQ:Q43o.CES-D: how often felt people were unfriendly, past week",1.0
+V00CESD16,"SAQ:Q43p.CES-D: how often enjoyed life, past week",1.0
+V00CESD17,"SAQ:Q43q.CES-D: how often had crying spells, past week",1.0
+V00CESD18,"SAQ:Q43r.CES-D: how often felt sad, past week",1.0
+V00CESD19,"SAQ:Q43s.CES-D: how often felt that people disliked me, past week",1.0
+V00CESD20,"SAQ:Q43t.CES-D: how often could not get going, past week",1.0
+V00TYLEN,"EV:Q50a.Used Tylenol (Acetaminophen) for joint pain or arthritis more than half the days of the month, past 30 days",1.0
+V00NSAIDS,"EV:Q50b.Used nonprescription NSAIDS (e.g., Aspirin, Ibuprofen‚Ä¶) for joint pain or arthritis more than half the days of the month, past 30 days",1.0
+V00NSAIDRX,"EV:Q50c.Used prescription NSAIDS (e.g., Ibuprofen, Diclofenac‚Ä¶) for joint pain or arthritis more than half the days of the month, past 30 days",1.0
+V00COXIBS,"EV:Q50d.Used COXIBS (e.g., Bextra, Celebrex...) for joint pain or arthritis more than half the days of the month, past 30 days",1.0
+V00NARCOT,"EV:Q50e.Used strong prescription pain medications (e.g., narcotics) for joint pain or arthritis more than half the days of the month, past 30 days",1.0
+V00SAME,"EV:Q50f.Used SAMe (S-adenosylmethionine) for joint pain or arthritis more than half the days of the month, past 30 days",1.0
+V00MSM,"EV:Q50g.Used MSM (methylsulfonylmethane) for joint pain or arthritis more than half the days of the month, past 30 days",1.0
+V00DOXYCYC,"EV:Q50h.Used Doxycycline (includes Vibra-Tabs, Doryx, Adoxa...) for joint pain or arthritis more than half the days of the month, past 30 days",1.0
+V00PNMEDT,EV:Q51.Take any pain medication today (include both prescription and over-the-counter medications for any type of pain),1.0
+V00CHON,"EV:Q52a.Used chondroitin sulfate for joint pain or arthritis, past 6 months",1.0
+V00GLUC,"EV:Q52b.Used glucosamine for joint pain or arthritis, past 6 months",1.0
+V00KNINJ,"EV:Q53.Either knee, injections for treatment of arthritis, past 6 months",1.0
+V00HYALKN,"EV:Q53ai.Which knee, injection of hyaluronic acid, past 6 months",1.0
+V00STERKN,"EV:Q53bi.Which knee, injection of steroids, past 6 months",1.0
+V00TEST,"EV:Q54.Used male hormone or testosterone (injection, patch, or rubbed on skin) (men only), past 6 months",1.0
+V00TESTUSE,"EV:Q54a.Last time used male hormone or testosterone (men only), past 6 months",1.0
+V00ESTR,"EV:Q55.Used Estratest or Syntest, a combination of estrogen and testosterone, for menopausal symptoms or to increase bone density (women only), past 6 months",1.0
+V00ESTRUSE,"EV:Q55a.Last time used Estratest or Syntest (women only), past 6 months",1.0
+V00GNRH,"EV:Q56.Received GnRH antagonist injections (such as Antagon, Cetrotide, Lupron) to treat vaginal bleeding/prostate cancer, past 6 months",1.0
+V00GNRHUSE,"EV:Q56a.Last time had GnRH antagonist injection, past 6 months",1.0
+V00PTH,"EV:Q57.Used parathyroid hormone or PTH  (includes Forteo, or teriparatide, given by injection) to treat osteoporosis, past 6 months",1.0
+V00PTHUSE,"EV:Q57a.Last time had parathyroid hormone or PTH injection, past 6 months",1.0
+V00BISPHOS,"EV:Q58.Taken bisphosphonate medication (includes alendronate, risedronate...) to treat osteoporosis or Paget's disease, past 5 years",1.0
+V00BISPYRS,EV:Q58a.How many years take bisphosphonates,1.0
+V00BISPUSE,"EV:Q58b.Last time took bisphosphonate, past 5 years",1.0
+V00CAM12,"EV:Q59.CAM: seen someone other than medical doctor or nurse, such as chiropractor or acupuncturist, specifically for arthritis or joint pain, past 12 months",1.0
+V00ACUTNUM,"EV:Q59ai.CAM: how many times see acupuncture practitioner for arthritis or joint pain, past 12 months",1.0
+V00ACUTCUR,EV:Q59aii.CAM: currently seeing acupuncture practitioner for arthritis or joint pain,1.0
+V00ACUSNUM,"EV:Q59bi.CAM: how many times see acupressure practitioner for arthritis or joint pain, past 12 months",1.0
+V00ACUSCUR,EV:Q59bii.CAM: currently seeing acupressure practitioner for arthritis or joint pain,1.0
+V00CHELCUR,EV:Q59eii.CAM: currently seeing chelation therapy practitioner for arthritis or joint pain,1.0
+V00CHELNUM,"EV:Q59ei.CAM: how many times see chelation therapy practitioner for arthritis or joint pain, past 12 months",1.0
+V00CHIRNUM,"EV:Q59fi.CAM: how many times see chiropractic care practitioner for arthritis or joint pain, past 12 months",1.0
+V00CHIRCUR,EV:Q59fii.CAM: currently seeing chiropractic care practitioner for arthritis or joint pain,1.0
+V00FOLKNUM,"EV:Q59hi.CAM: how many times see folk medicine practitioner for arthritis or joint pain, past 12 months",1.0
+V00FOLKCUR,EV:Q59hii.CAM: currently seeing folk medicine practitioner for arthritis or joint pain,1.0
+V00HOMENUM,"EV:Q59ii.CAM: how many times see homeopathy/homeopathic treatment practitioner for arthritis or joint pain, past 12 months",1.0
+V00HOMECUR,EV:Q59iii.CAM: currently seeing homeopathy/homeopathic treatment practitioner for arthritis or joint pain,1.0
+V00MASSNUM,"EV:Q59ki.CAM: how many times see massage practitioner for arthritis or joint pain, past 12 months",1.0
+V00MASSCUR,EV:Q59kii.CAM: currently seeing massage practitioner for arthritis or joint pain,1.0
+V00DIET12,"EV:Q60.CAM: follow special food plan or diet, such as a vegetarian or low-fat diet, for arthritis or joint pain, past 12 months",1.0
+V00VITM12,"EV:Q61.CAM: use vitamins or minerals, such as selenium or vitamin C or D, for arthritis or joint pain, past 12 months",1.0
+V00HERB12,"EV:Q62.CAM: use herbs, such as echinacea, ginger or garlic, for arthritis or joint pain, past 12 months",1.0
+V00RUBS12,"EV:Q63.CAM: used rubs, lotions, liniments, creams or oils, such as tiger balm or horse liniment, for arthritis or joint pain, past 12 months",1.0
+V00BRAC12,"EV:Q64.CAM: worn copper bracelets or used magnets for arthritis or joint pain, past 12 months",1.0
+V00YOGA12,"EV:Q65.CAM: do any health or special movement activity, such as Tai Chi, Yoga, Chi Gong or Pilates, for arthritis or joint pain, past 12 months",1.0
+V00RELA12,"EV:Q66.CAM: do relaxation or mind-body activities, such as meditation, deep breathing or visualization, for arthritis or joint pain, past 12 months",1.0
+V00SPIR12,"EV:Q67.CAM: do spiritual activities (e.g., prayer, laying on of hands, healing circles, or faith healing) for arthritis or joint pain, past 12 months",1.0
+V00RX30,"EV:Q49.MIF: bring in or identify all prescription medications taken, past 30 days",1.0
+V00RX30NUM,EV:Q49a.MIF: total number of medications recorded,1.0
+P02KPMEDCV,"IEI:Q10a.Either knee, used medication for pain, aching or stiffness more than half the days of a month, past 12 months (calc, used for study eligibility)",1.0
+P02KRSCV,IEI:Q12b.Which knee replaced during knee replacement surgery (calc),1.0
+P01RAJSCV,SV:Q2a.RA Symptoms: have morning stiffness (in any joints lasting at least one hour) for more than six weeks (calc),1.0
+P01RATSTCV,SV:Q8a.RA Symptoms: RA blood test results (calc),1.0
+P01OADEGCV,SV:Q10a.Doctor said you had osteoarthritis/degenerative arthritis in knee (calc),1.0
+P01OAHIPCV,SV:Q10b.Doctor said you had osteoarthritis/degenerative arthritis in hip (calc),1.0
+P01OAHNDCV,SV:Q10c.Doctor said you had osteoarthritis/degenerative arthritis in hand/fingers (calc),1.0
+P01OABCKCV,SV:Q10d.Doctor said you had osteoarthritis/degenerative arthritis in back/neck (calc),1.0
+P01OAOTHCV,SV:Q10e.Doctor said you had osteoarthritis/degenerative arthritis in some other joint (calc),1.0
+P01GOUTCV,SV:Q10f.Doctor said you had gout (calc),1.0
+P01OTARTCV,SV:Q10g.Doctor said you had some other type of arthritis (calc),1.0
+P01ARTDRCV,SV:Q11a.Seeing doctor/other professional for knee arthritis (calc),1.0
+P01KPMEDCV,"SV:Q21a.Either knee, used med for pain, aching or stiffness more than half the days of a month, past 12 mo (calc, used for study eligibility)",1.0
+P01OVNUMCV,SV:Q2a.How many ovaries removed (calc),1.0
+V00COMORB,SAQ:Comorbidity Score (calc),1.0
+V00FALLCV,"SAQ:Q32a.How many times fallen, past 12 months (calc)",1.0
+V00HT25MM,"SAQ:Height at age 25, self-reported (mm) (calc)",1.0
+V00WT25KG,"SAQ:Weight at age 25, self-reported (kg) (calc)",1.0
+V00WTMAXKG,"SAQ:Maximum adult weight, self-reported (kg) (calc)",1.0
+V00WTMINKG,"SAQ:Minimum adult weight, self-reported (kg) (calc)",1.0
+V00SMOKER,SAQ:Smoking status for cigarettes (calc),1.0
+V00SMKPKYR,SAQ:Pack-years of smoking cigarettes (calc),1.0
+V00PSMOKER,"SAQ:Smoking status for pipe, cigars or cigarillos (calc)",1.0
+V00PSMKYR,"SAQ:Years of smoking pipe, cigars or cigarillos (calc)",1.0
+V00CESD,SAQ:CES-D: Center for Epidemiologic Studies Depression Scale (CES-D) Score (calc),1.0
+V00HYAINJR,"EV:Right knee hyaluronic acid injection, past 6 months (calc)",1.0
+V00HYAINJL,"EV:Left knee hyaluronic acid injection, past 6 months (calc)",1.0
+V00STRINJR,"EV:Right knee steroid injection, past 6 months (calc)",1.0
+V00STRINJL,"EV:Left knee steroid injection, past 6 months (calc)",1.0
+V00BISPTYP,"EV:Type of bisphosphonate taken, past 5 years (calc)",1.0
+V00CHNFQCV,"EV:Q52ai.Chondroitin sulfate frequency of use, past 6 months (calc)",1.0
+V00GLCFQCV,"EV:Q52bi.Glucosamine frequency of use, past 6 months (calc)",1.0
+V00HYINJCV,"EV:Q53a.Either knee, hyaluronic acid injection (Synvisc/Hyalgan), past 6 months (calc)",1.0
+V00STINJCV,"EV:Q53b.Either knee, steroid injection (cortisone/corticosteroid), past 6 months (calc)",1.0
+V00ACUTCV,"EV:Q59a.CAM: seen acupuncture practitioner for arthritis or joint pain, past 12 months (calc)",1.0
+V00ACUSCV,"EV:Q59b.CAM: seen acupressure practitioner for arthritis or joint pain, past 12 months (calc)",1.0
+V00CHELCV,"EV:Q59e.CAM: seen chelation therapy practitioner for arthritis or joint pain, past 12 months (calc)",1.0
+V00CHIRCV,"EV:Q59f.CAM: seen chiropractic care practitioner for arthritis or joint pain, past 12 months (calc)",1.0
+V00FOLKCV,"EV:Q59h.CAM: seen folk medicine practitioner for arthritis or joint pain, past 12 months (calc)",1.0
+V00HOMECV,"EV:Q59i.CAM: seen homeopathy/homeopathic treatment practitioner for arthritis or joint pain, past 12 months (calc)",1.0
+V00MASSCV,"EV:Q59k.CAM: seen massage practitioner for arthritis or joint pain, past 12 months (calc)",1.0
+V00DIETCV,EV:Q60a.CAM: currently following special food plan or diet for arthritis or joint pain (calc),1.0
+V00VITMCV,EV:Q61a.CAM: currently using vitamins/minerals for arthritis or joint pain (calc),1.0
+V00RUBCV,"EV:Q63a.CAM: currently using rubs, lotions, liniments, creams or oils for arthritis or joint pain (calc)",1.0
+V00CAPSNCV,EV:Q63b.CAM: currently using Capsaicin (pepper cream) for arthritis or joint pain (calc),1.0
+V00BRACCV,EV:Q64a.CAM: currently wear copper bracelets or use magnets for arthritis or joint pain (calc),1.0
+V00YOGACV,EV:Q65a.CAM: currently do any type of health or special movement activity for arthritis or joint pain (calc),1.0
+V00HERBCV,EV:Q62a.CAM: currently using any herbs for arthritis or joint pain (calc),1.0
+V00RELACV,EV:Q66a.CAM: currently do relaxation or mind-body activities for arthritis or joint pain (calc),1.0
+V00SPIRCV,EV:Q67a.CAM: currently do any type of spiritual activities for arthritis or joint pain (calc),1.0
+V00RXANALG,EV:MIF: Rx Analgesic use indicator (calc),1.0
+V00RXVLCXB,EV:MIF: Rx Valdecoxib use indicator (calc),1.0
+V00RXFLUOR,EV:MIF: Rx Fluoride use indicator (calc),1.0
+V00RXCLCTN,EV:MIF: Rx Calcitonin use indicator (calc),1.0
+V00RXBISPH,EV:MIF: Rx Bisphosphonate use indicator (calc),1.0
+P01RASTASV,"SV:RA/other inflammatory arthritis diagnosis and medication status, self-report (calc)",1.0
+V00RXIHYAL,EV:MIF: Rx Injected hyaluronic acid use indicator (calc),1.0
+V00RXRFCXB,EV:MIF: Rx Rofecoxib use indicator (calc),1.0
+V00RXNARC,EV:MIF: Rx Narcotic analgesic use indicator (calc),1.0
+V00RXISTRD,EV:MIF: Rx Injected corticosteroid use indicator (calc),1.0
+V00RXCOX2,EV:MIF: Rx COX-II inhibitor use indicator (calc),1.0
+V00RXCHOND,EV:MIF: Rx Chondroitin sulfate use indicator (calc),1.0
+V00RXOTHAN,EV:MIF: Rx Other analgesic use indicator (calc),1.0
+V00RXGLCSM,EV:MIF: Rx Glucosamine use indicator (calc),1.0
+V00RXACTM,EV:MIF: Rx Acetaminophen use indicator (calc),1.0
+V00RXMSM,EV:MIF: Rx Methylsulfonylmethane use indicator (calc),1.0
+P02KSURGCV,"IEI:Q12a.Either knee, ever had knee replacement surgery where all or part of joint was replaced (calc)",1.0
+V00RXNSAID,EV:MIF: Rx NSAID use indicator (calc),1.0
+V00RXASPRN,EV:MIF: Rx Aspirin use indicator (calc),1.0
+V00RXNTRAT,EV:MIF: Rx Nitrate use indicator (calc),1.0
+V00RXRALOX,EV:MIF: Rx Raloxifene use indicator (calc),1.0
+V00RXVIT_D,EV:MIF: Rx Vitamin D use indicator (calc),1.0
+V00RXOSTRD,EV:MIF: Rx Oral corticosteroid use indicator (calc),1.0
+V00RXCLCXB,EV:MIF: Rx Celecoxib use indicator (calc),1.0
+V00RXTPRTD,EV:MIF: Rx Teriparatide use indicator (calc),1.0
+V00RXSALIC,EV:MIF: Rx Salicylate use indicator (calc),1.0
+V00RXSAME,EV:MIF: Rx S-adenosylmethionine use indicator (calc),1.0
+P01RATOTCV,SV:Q9.RA symptoms: total score for questions #2 through #8 (calc),1.0
+P02CNCOTH,"IEI:Cancer type: colon, uterine and other, self-reported (calc)",1.0
+P01RAWE6L,"SV:RA symptoms: left wrist or elbow swelling, ever had lasting more than 6 weeks (calc)",1.0
+P01HRSRFXO,"SV:Right hip replacement reason, hip fracture or other (calc)",1.0
+P01HRSLFXO,"SV:Left hip replacement reason, hip fracture or other (calc)",1.0
+P01RAWE6R,"SV:RA symptoms: right wrist or elbow swelling, ever had lasting more than 6 weeks (calc)",1.0
+V00OTHCAMC,EV:CAM: currently seeing ayurveda/biofeedback/energy healing/hypnosis/naturopathy practitioner for arthritis or joint pain (calc),1.0
+V00OTHCAM,"EV:CAM: seen ayurveda/biofeedback/energy healing/hypnosis/naturopathy practitioner for arthritis or joint pain, past 12 months (calc)",1.0
+V00FFQ1,"SAQ:Block Brief 2000: eggs (include egg biscuits/Egg McMuffins (not egg substitutes)), eat how often, past 12 months",1.0
+V00FFQSZ1,"SAQ:Block Brief 2000: eggs (not egg substitutes), how many each time",1.0
+V00FFQ2,"SAQ:Block Brief 2000: bacon/breakfast sausage (including sausage biscuit), eat how often, past 12 months",1.0
+V00FFQSZ2,"SAQ:Block Brief 2000: bacon/breakfast sausage, how many pieces each time",1.0
+V00FFQ3,"SAQ:Block Brief 2000: cooked cereals (e.g., oatmeal/cream of wheat/grits) eat how often, past 12 months",1.0
+V00FFQSZ3,"SAQ:Block Brief 2000: cooked cereals, which bowl each time",1.0
+V00FFQ4,"SAQ:Block Brief 2000: cold cereals (e.g., Corn Flakes/Cheerios...), eat how often, past 12 months",1.0
+V00FFQSZ4,"SAQ:Block Brief 2000: cold cereals, which bowl each time",1.0
+V00FFQ5,"SAQ:Block Brief 2000: cereal, which eat most often",1.0
+V00FFQ6,"SAQ:Block Brief 2000: cheese/sliced cheese/cheese spread (including on sandwiches), eat how often, past 12 months",1.0
+V00FFQSZ6,"SAQ:Block Brief 2000: cheese, how many slices each time",1.0
+V00FFQ7,"SAQ:Block Brief 2000: yogurt (not frozen yogurt), eat how often, past 12 months",1.0
+V00FFQSZ7,"SAQ:Block Brief 2000: yogurt (not frozen yogurt), how much each time",1.0
+V00FFQ8,"SAQ:Block Brief 2000: bananas, eat how often, past 12 months",1.0
+V00FFQSZ8,"SAQ:Block Brief 2000: bananas, how many each time",1.0
+V00FFQ9,"SAQ:Block Brief 2000: apples/pears, eat how often, past 12 months",1.0
+V00FFQSZ9,"SAQ:Block Brief 2000: apples/pears, how many each time",1.0
+V00FFQ10,"SAQ:Block Brief 2000: oranges/tangerines (not including juice), eat how often, past 12 months",1.0
+V00FFQSZ10,"SAQ:Block Brief 2000: oranges/tangerines, how many each time",1.0
+V00FFQ11,"SAQ:Block Brief 2000: applesauce/fruit cocktail/any canned fruit, eat how often, past 12 months",1.0
+V00FFQSZ11,"SAQ:Block Brief 2000: applesauce/fruit cocktail/any canned fruit, how much each time",1.0
+V00FFQ12,"SAQ:Block Brief 2000: any other fruit (e.g., grapes/melon/strawberries/peaches), eat how often, past 12 months",1.0
+V00FFQSZ12,"SAQ:Block Brief 2000: any other fruit, how much each time",1.0
+V00FFQ13,"SAQ:Block Brief 2000: french fries/fried potatoes/hash browns, eat how often, past 12 months",1.0
+V00FFQSZ13,"SAQ:Block Brief 2000: french fries/fried potatoes/hash browns, how much each time",1.0
+V00FFQ14,"SAQ:Block Brief 2000: white potatoes not fried (including boiled/baked/mashed/potato salad), eat how often, past 12 months",1.0
+V00FFQSZ14,"SAQ:Block Brief 2000: white potatoes not fried, how much each time",1.0
+V00FFQ15,"SAQ:Block Brief 2000: sweet potatoes/yams/sweet potato pie, eat how often, past 12 months",1.0
+V00FFQSZ15,"SAQ:Block Brief 2000: sweet potatoes/yams/sweet potato pie, how much each time",1.0
+V00FFQ16,"SAQ:Block Brief 2000: rice/dishes made with rice, eat how often, past 12 months",1.0
+V00FFQSZ16,"SAQ:Block Brief 2000: rice/dishes made with rice, how much each time",1.0
+V00FFQ17,"SAQ:Block Brief 2000: baked beans/chili with beans/pintos/any other dried beans, eat how often, during past 12 months",1.0
+V00FFQSZ17,"SAQ:Block Brief 2000: baked beans/chili with beans/pintos/any other dried beans, how much each time",1.0
+V00FFQ18,"SAQ:Block Brief 2000: refried beans, eat how often, past 12 months",1.0
+V00FFQSZ18,"SAQ:Block Brief 2000: refried beans, how much each time",1.0
+V00FFQ19,"SAQ:Block Brief 2000: green beans/green peas, eat how often, past 12 months",1.0
+V00FFQSZ19,"SAQ:Block Brief 2000: green beans/green peas, how much each time",1.0
+V00FFQ20,"SAQ:Block Brief 2000: broccoli, eat how often, past 12 months",1.0
+V00FFQSZ20,"SAQ:Block Brief 2000: broccoli, how much each time",1.0
+V00FFQ21,"SAQ:Block Brief 2000: carrots/stews or mixed vegetables containing carrots, eat how often, past 12 months",1.0
+V00FFQSZ21,"SAQ:Block Brief 2000: carrots/stews or mixed vegetables containing carrots, how much each time",1.0
+V00FFQ22,"SAQ:Block Brief 2000: spinach/greens (e.g., collards), eat how often, past 12 months",1.0
+V00FFQSZ22,"SAQ:Block Brief 2000: spinach/greens, how much each time",1.0
+V00FFQ23,"SAQ:Block Brief 2000: cole slaw/cabbage, eat how often, past 12 months",1.0
+V00FFQSZ23,"SAQ:Block Brief 2000: cole slaw/cabbage, how much each time",1.0
+V00FFQ24,"SAQ:Block Brief 2000: green salad, eat how often, past 12 months",1.0
+V00FFQSZ24,"SAQ:Block Brief 2000: green salad, how much each time",1.0
+V00FFQ25,"SAQ:Block Brief 2000: raw tomatoes (including in salad), eat how often, past 12 months",1.0
+V00FFQSZ25,"SAQ:Block Brief 2000: raw tomatoes, how much each time",1.0
+V00FFQ26,"SAQ:Block Brief 2000: catsup/salsa/chile peppers, eat how often, past 12 months",1.0
+V00FFQSZ26,"SAQ:Block Brief 2000: catsup/salsa/chile peppers, how many TBSP each time",1.0
+V00FFQ27,"SAQ:Block Brief 2000: salad dressing/mayonnaise (not lowfat), eat how often, past 12 months",1.0
+V00FFQSZ27,"SAQ:Block Brief 2000: salad dressing/mayonnaise (not lowfat), how many TBSP each time",1.0
+V00FFQ28,"SAQ:Block Brief 2000: any other vegetable (e.g., corn/squash/okra‚Ä¶), eat how often, past 12 months",1.0
+V00FFQSZ28,"SAQ:Block Brief 2000: any other vegetable, how much each time",1.0
+V00FFQ29,"SAQ:Block Brief 2000: vegetable soup/vegetable beef, chicken vegetable or tomato soup, eat how often, past 12 months",1.0
+V00FFQSZ29,"SAQ:Block Brief 2000: vegetable soups, which bowl each time",1.0
+V00FFQ30,"SAQ:Block Brief 2000: chicken/meat/fish, ever eat",1.0
+V00FFQ31,"SAQ:Block Brief 2000: hamburgers/cheeseburgers/meat loaf (at home or in restaurant), eat how often, past 12 months",1.0
+V00FFQSZ31,"SAQ:Block Brief 2000: meat (hamburgers...), how much each time",1.0
+V00FFQ32,"SAQ:Block Brief 2000: tacos/burritos/enchiladas/tamales, eat how often, past 12 months",1.0
+V00FFQSZ32,"SAQ:Block Brief 2000: tacos/burritos/enchiladas/tamales, how much each time",1.0
+V00FFQ33,"SAQ:Block Brief 2000: beef steaks/roasts/pot roast (including in frozen dinners/sandwiches), eat how often, past 12 months",1.0
+V00FFQSZ33,"SAQ:Block Brief 2000: beef steaks/roasts/pot roast, how much each time",1.0
+V00FFQ34,"SAQ:Block Brief 2000: pork (including chops/roasts)/dinner ham, eat how much, past 12 months",1.0
+V00FFQSZ34,"SAQ:Block Brief 2000: pork/dinner ham, how much each time",1.0
+V00FFQ35,"SAQ:Block Brief 2000: beef/pork, when eat do you...",1.0
+V00FFQ36,"SAQ:Block Brief 2000: mixed dishes with meat or chicken (e.g., stew/corned beef hash‚Ä¶or in frozen meals), eat how often, past 12 months",1.0
+V00FFQSZ36,"SAQ:Block Brief 2000: mixed dishes with meat or chicken, how much each time",1.0
+V00FFQ37,"SAQ:Block Brief 2000: fried chicken, at home or in a restaurant, eat how often, past 12 months",1.0
+V00FFQSZ37,"SAQ:Block Brief 2000: fried chicken, number medium pieces each time",1.0
+V00FFQ38,"SAQ:Block Brief 2000: chicken/turkey not fried (e.g., baked/grilled/on sandwiches), eat how often, past 12 months",1.0
+V00FFQSZ38,"SAQ:Block Brief 2000: chicken/turkey not fried, how much each time",1.0
+V00FFQ39,"SAQ:Block Brief 2000: chicken, when eat do you...",1.0
+V00FFQ40,"SAQ:Block Brief 2000: fried fish/fish sandwich at home or in a restaurant, eat how often, past 12 months",1.0
+V00FFQSZ40,"SAQ:Block Brief 2000: fried fish/fish sandwich, how much each time",1.0
+V00FFQ41,"SAQ:Block Brief 2000: any other fish/shellfish not fried (including tuna), eat how often, past 12 months",1.0
+V00FFQSZ41,"SAQ:Block Brief 2000: any other fish/shellfish not fried, how much each time",1.0
+V00FFQ42,"SAQ:Block Brief 2000: hot dogs/sausage (e.g., Polish/Italian/Chorizo), eat how often, past 12 months",1.0
+V00FFQSZ42,"SAQ:Block Brief 2000: hot dogs/sausage, how many each time",1.0
+V00FFQ43,"SAQ:Block Brief 2000: boloney (bologna)/sliced ham/turkey lunch meat/other lunch meat, eat how often, past 12 months",1.0
+V00FFQSZ43,"SAQ:Block Brief 2000: boloney/sliced ham/turkey lunch meat/other lunch meat, how many slices each time",1.0
+V00FFQ44,"SAQ:Block Brief 2000: lunch meats, when eat are they...",1.0
+V00FFQ45,"SAQ:Block Brief 2000: spaghetti/lasagna/other pasta with tomato sauce, eat how often, past 12 months",1.0
+V00FFQSZ45,"SAQ:Block Brief 2000: spaghetti/lasagna/other pasta with tomato sauce, how much each time",1.0
+V00FFQ46,"SAQ:Block Brief 2000: cheese dishes without tomato sauce (e.g., macaroni and cheese), eat how often, past 12 months",1.0
+V00FFQSZ46,"SAQ:Block Brief 2000: cheese dishes without tomato sauce, how much each time",1.0
+V00FFQ47,"SAQ:Block Brief 2000: pizza (including carry-out), eat how often, past 12 months",1.0
+V00FFQSZ47,"SAQ:Block Brief 2000: pizza, how many slices each time",1.0
+V00FFQ48,"SAQ:Block Brief 2000: biscuits/muffins, eat how often, past 12 months",1.0
+V00FFQSZ48,"SAQ:Block Brief 2000: biscuits/muffins, how many each time",1.0
+V00FFQ49,"SAQ:Block Brief 2000: rolls/hamburger buns/english muffins/bagels, eat how often, past 12 months",1.0
+V00FFQSZ49,"SAQ:Block Brief 2000: rolls/hamburger buns/english muffins/bagels, how many each time",1.0
+V00FFQ50,"SAQ:Block Brief 2000: white bread/toast (including French/Italian or in sandwiches), eat how often, past 12 months",1.0
+V00FFQSZ50,"SAQ:Block Brief 2000: white bread/toast, how many slices each time",1.0
+V00FFQ51,"SAQ:Block Brief 2000: dark bread (e.g., rye/whole wheat, including in sandwiches), eat how often, past 12 months",1.0
+V00FFQSZ51,"SAQ:Block Brief 2000: dark bread, how many slices each time",1.0
+V00FFQ52,"SAQ:Block Brief 2000: tortillas, eat how often, past 12 months",1.0
+V00FFQSZ52,"SAQ:Block Brief 2000: tortillas, how many each time",1.0
+V00FFQ53,"SAQ:Block Brief 2000: margarine on bread/potatoes/vegetables, eat how often, past 12 months",1.0
+V00FFQSZ53,"SAQ:Block Brief 2000: margarine on bread/potatoes/vegetables, how many pats (tsp.) each time",1.0
+V00FFQ54,"SAQ:Block Brief 2000: butter on bread/potatoes/vegetables, eat how often, past 12 months",1.0
+V00FFQSZ54,"SAQ:Block Brief 2000: butter on bread/potatoes/vegetables, how many pats (tsp.) each time",1.0
+V00FFQ55,"SAQ:Block Brief 2000: peanuts/peanut butter, eat how often, past 12 months",1.0
+V00FFQSZ55,"SAQ:Block Brief 2000: peanuts/peanut butter, how many TBSP each time",1.0
+V00FFQ56,"SAQ:Block Brief 2000: snacks (e.g., potato chips/corn chips/popcorn‚Ä¶not pretzels), eat how often, past 12 months",1.0
+V00FFQSZ56,"SAQ:Block Brief 2000: snacks (not pretzels), how much each time",1.0
+V00FFQ57,"SAQ:Block Brief 2000: doughnuts/cake/pastry/pie, eat how often, past 12 months",1.0
+V00FFQSZ57,"SAQ:Block Brief 2000: doughnuts/cake/pastry/pie, how many pieces each time",1.0
+V00FFQ58,"SAQ:Block Brief 2000: cookies (not lowfat), eat how often, past 12 months",1.0
+V00FFQSZ58,"SAQ:Block Brief 2000: cookies (not lowfat), how many each time",1.0
+V00FFQ59,"SAQ:Block Brief 2000: ice cream/frozen yogurt/ice cream bars, eat how often, past 12 months",1.0
+V00FFQSZ59,"SAQ:Block Brief 2000: ice cream/frozen yogurt/ice cream bars, how much each time",1.0
+V00FFQ60,"SAQ:Block Brief 2000: ice cream/frozen yogurt, when eat is it...",1.0
+V00FFQ61,"SAQ:Block Brief 2000: chocolate candy/candy bars, eat how often, past 12 months",1.0
+V00FFQSZ61,"SAQ:Block Brief 2000: chocolate candy/candy bars, how many bars each time",1.0
+V00FFQ62,"SAQ:Block Brief 2000: real orange or grapefruit juice/Welch's grape juice/Minutemaid juices/Juicy Juice, drink how often, past 12 months",1.0
+V00FFQSZ62,"SAQ:Block Brief 2000: real orange or grapefruit juice/Welch's grape juice/Minutemaid juices/Juicy Juice, how many glasses each time",1.0
+V00FFQ63,"SAQ:Block Brief 2000: Hawaiian Punch/Sunny Delight/Hi-C/Tang/Ocean Spray juices, drink how often, past 12 months",1.0
+V00FFQSZ63,"SAQ:Block Brief 2000: Hawaiian Punch/Sunny Delight/Hi-C/Tang/Ocean Spray juices, how many glasses each time",1.0
+V00FFQ64,"SAQ:Block Brief 2000: Kool Aid/Capri Sun/Knudsen juices, drink how often, past 12 months",1.0
+V00FFQSZ64,"SAQ:Block Brief 2000: Kool Aid/Capri Sun/Knudsen juices, how many glasses each time",1.0
+V00FFQ65,"SAQ:Block Brief 2000: instant breakfast milkshakes, diet shakes, or liquid supplements, drink how often, past 12 months",1.0
+V00FFQSZ65,"SAQ:Block Brief 2000: instant breakfast milkshakes, diet shakes, or liquid supplements, how many glasses or cans each time",1.0
+V00FFQ66,"SAQ:Block Brief 2000: glasses of milk (any kind), drink how often, past 12 months",1.0
+V00FFQSZ66,"SAQ:Block Brief 2000: milk (any kind), how many glasses each time",1.0
+V00FFQ67,"SAQ:Block Brief 2000: glasses of milk, when drink what kind usually drink",1.0
+V00FFQ68,"SAQ:Block Brief 2000: cream/half and half/non-dairy creamer in coffee or tea, drink how often, past 12 months",1.0
+V00FFQSZ68,"SAQ:Block Brief 2000: cream/half and half/non-dairy creamer in coffee or tea, total TBSP on those days",1.0
+V00FFQ69,"SAQ:Block Brief 2000: regular soft drinks/bottled drinks like Snapple (not diet drinks), drink how often, past 12 months",1.0
+V00FFQSZ69,"SAQ:Block Brief 2000: regular soft drinks/bottled drinks (not diet drinks), how many bottles or cans each time",1.0
+V00FFQ70,"SAQ:Block Brief 2000: beer, drink how often, past 12 months",1.0
+V00FFQSZ70,"SAQ:Block Brief 2000: beer, how many bottles or cans each time",1.0
+V00FFQ71,"SAQ:Block Brief 2000: wine/wine coolers, drink how often, past 12 months",1.0
+V00FFQ72,"SAQ:Block Brief 2000: liquor/mixed drinks, drink how often, past 12 months",1.0
+V00FFQ73,"SAQ:Block Brief 2000: vitamins/minerals, taken regularly (at least once per month), past 12 months",1.0
+V00FFQYR74,"SAQ:Block Brief 2000: regular Once-A-Day/Centrum/Thera type multivitamins, how many years",1.0
+V00FFQYR75,"SAQ:Block Brief 2000: Stress-tabs/B-Complex type multivitamins, how many years",1.0
+V00FFQYR76,"SAQ:Block Brief 2000: Antioxidant combination type multivitamins, how many years",1.0
+V00FFQYR77,"SAQ:Block Brief 2000: Vitamin A (not beta-carotene) single vitamins, how many years",1.0
+V00FFQYR78,"SAQ:Block Brief 2000: Beta-carotene single vitamin, how many years",1.0
+V00FFQYR79,"SAQ:Block Brief 2000: Vitamin C single vitamin, how many years",1.0
+V00FFQYR80,"SAQ:Block Brief 2000: Vitamin E single vitamin, how many years",1.0
+V00FFQYR81,"SAQ:Block Brief 2000: Folic acid, folate single vitamin, how many years",1.0
+V00FFQYR82,"SAQ:Block Brief 2000: Calcium/Tums (alone or combined with Vitamin D or magnesium), how many years",1.0
+V00FFQYR83,"SAQ:Block Brief 2000: Zinc alone, how many years",1.0
+V00FFQYR84,"SAQ:Block Brief 2000: Iron alone, how many years",1.0
+V00FFQYR85,"SAQ:Block Brief 2000: Selenium alone, how many years",1.0
+V00FFQYR86,"SAQ:Block Brief 2000: Vitamin D, alone or with calcium, how many years",1.0
+V00FFQ87,"SAQ:Block Brief 2000: Vitamin C, if took how many milligrams usually take on days taken, past 12 months",1.0
+V00FFQ88,"SAQ:Vitamin D, if took how many IUs usually take on days taken, past 12 months",1.0
+V00FFQ89,"SAQ:Block Brief 2000: Vitamin E, if took how many IUs usually take on days taken, past 12 months",1.0
+V00VIT1,"SAQ:Regular Once-A-Day/Centrum/Thera type multiple vitamins, taken past 30 days",1.0
+V00VIT2,"SAQ:Stress-tabs/B-Complex type multiple vitamins, taken past 30 days",1.0
+V00VIT3,"SAQ:Antioxidant combination type multiple vitamins, taken past 30 days",1.0
+V00VIT4,"SAQ:Vitamin A (not beta-carotene) single vitamin, taken past 30 days",1.0
+V00VIT5,"SAQ:Beta-carotene single vitamin, taken past 30 days",1.0
+V00VIT6,"SAQ:Vitamin C single vitamin, taken past 30 days",1.0
+V00VIT7,"SAQ:Vitamin E single vitamin, taken past 30 days",1.0
+V00VIT8,"SAQ:Folic acid, folate single vitamin, taken past 30 days",1.0
+V00VIT9,"SAQ:Calcium or Tums (alone or combined with vitamin D or magnesium), taken past 30 days",1.0
+V00VIT10,"SAQ:Zinc alone, taken past 30 days",1.0
+V00VIT11,"SAQ:Iron alone, taken past 30 days",1.0
+V00VIT12,"SAQ:Selenium alone, taken past 30 days",1.0
+V00VIT13,"SAQ:Vitamin D (alone or combined with calcium), taken past 30 days",1.0
+V00FFQ90,"SAQ:Block Brief 2000: fat or oil, how often use in cooking",1.0
+V00FFQ91,"SAQ:Block Brief 2000: fat or oil usually use in cooking, PAM",1.0
+V00FFQ92,"SAQ:Block Brief 2000: fat or oil usually use in cooking, stick margarine",1.0
+V00FFQ93,"SAQ:Block Brief 2000: fat or oil usually use in cooking, soft tub margarine",1.0
+V00FFQ94,"SAQ:Block Brief 2000: fat or oil usually use in cooking, butter",1.0
+V00FFQ95,"SAQ:Block Brief 2000: fat or oil usually use in cooking, butter/margarine blend",1.0
+V00FFQ96,"SAQ:Block Brief 2000: fat or oil usually use in cooking, low-fat margarine",1.0
+V00FFQ97,"SAQ:Block Brief 2000: fat or oil usually use in cooking, corn oil/vegetable oil",1.0
+V00FFQ98,"SAQ:Block Brief 2000: fat or oil usually use in cooking, olive oil/canola oil",1.0
+V00FFQ99,"SAQ:Block Brief 2000: fat or oil usually use in cooking, lard/fatback/bacon fat",1.0
+V00FFQ100,"SAQ:Block Brief 2000: fat or oil usually use in cooking, Crisco",1.0
+V00FFQ101,"SAQ:Block Brief 2000: fat or oil usually use in cooking, don't know",1.0
+V00FFQ102,SAQ:Block Brief 2000: do not use fat or oil in cooking,1.0
+V00MVIT1CV,"SAQ:Block Brief 2000: Regular Once-A-Day, Centrum or Thera type multivitamins, how often past 12 months (calc)",1.0
+V00STRTBCV,"SAQ:Block Brief 2000: Stress-tabs or B-Complex type multivitamins, how often past 12 months (calc)",1.0
+V00ANTOXCV,"SAQ:Block Brief 2000: Antioxidant combination type multivitamins, how often past 12 months (calc)",1.0
+V00VITACV,"SAQ:Block Brief 2000: Vitamin A (not beta-carotene) single vitamin, how often past 12 months (calc)",1.0
+V00BCARCV,"SAQ:Block Brief 2000: Beta-carotene single vitamin, how often past 12 months (calc)",1.0
+V00VITECV,"SAQ:Block Brief 2000: Vitamin E single vitamin, how often past 12 months (calc)",1.0
+V00FOLATCV,"SAQ:Block Brief 2000: Folic acid, folate single vitamin, how often past 12 months (calc)",1.0
+V00CALCMCV,"SAQ:Block Brief 2000: Calcium/Tums (alone or combined with Vitamin D or magnesium), how often past 12 months (calc)",1.0
+V00ZINCCV,"SAQ:Block Brief 2000: Zinc alone, how often past 12 months (calc)",1.0
+V00IRONCV,"SAQ:Block Brief 2000: Iron alone, how often past 12 months (calc)",1.0
+V00SLNMCV,"SAQ:Block Brief 2000: Selenium alone, how often past 12 months (calc)",1.0
+V00VITDCV,"SAQ:Block Brief 2000: Vitamin D, alone or with calcium, how often past 12 months (calc)",1.0
+V00VITCCV,"SAQ:Block Brief 2000: Vitamin C single vitamin, how often past 12 months (calc)",1.0
+V00DTDFIB,"SAQ:Block Brief 2000: daily nutrients from food, total dietary fiber (g) (calc)",1.0
+V00SUPVITD,"SAQ:Block Brief 2000: average daily nutrients from vitamin supplements, vitamin D (IU) (calc)",1.0
+V00FIBVGFR,SAQ:Block Brief 2000: daily dietary fiber from vegetables and fruits (g) (calc),1.0
+V00SUPB12,"SAQ:Block Brief 2000: average daily nutrients from vitamin supplements, B12 (ug) (calc)",1.0
+V00DTCAFFN,"SAQ:Block Brief 2000: daily nutrients from food, caffeine (mg) (calc)",1.0
+V00SRVFAT,"SAQ:Block Brief 2000: daily servings of fats, oils, sweets and sodas (calc)",1.0
+V00DTAIU,"SAQ:Block Brief 2000: daily nutrients from food, vitamin A (IU) (calc)",1.0
+V00DTCHOL,"SAQ:Block Brief 2000: daily nutrients from food, cholesterol (mg) (calc)",1.0
+V00PCTCOL1,"SAQ:Block Brief 2000: error flag, percent of foods marked as never (calc)",1.0
+V00DTPHOS,"SAQ:Block Brief 2000: daily nutrients from food, phosphorus (mg) (calc)",1.0
+V00DTVITC,"SAQ:Block Brief 2000: daily nutrients from food, vitamin C (mg) (calc)",1.0
+V00DTB1,"SAQ:Block Brief 2000: daily nutrients from food, thiamin (B1) (mg) (calc)",1.0
+V00PCTXLS,"SAQ:Block Brief 2000: error flag, percent of foods marked as extra large portion (calc)",1.0
+V00SUPB2,"SAQ:Block Brief 2000: average daily nutrients from vitamin supplements, B2 (mg) (calc)",1.0
+V00PCTCOL9,"SAQ:Block Brief 2000: error flag, percent of foods marked as every day (calc)",1.0
+V00DTVITK,"SAQ:Block Brief 2000: daily nutrients from food, vitamin K (ug) (calc)",1.0
+V00DTRET,"SAQ:Block Brief 2000: daily nutrients from food, retinol (preformed Vit. A, ug) (calc)",1.0
+V00SUPVITE,"SAQ:Block Brief 2000: average daily nutrients from vitamin supplements, vitamin E (a-TE) (calc)",1.0
+V00SUPNIAC,"SAQ:Block Brief 2000: average daily nutrients from vitamin supplements, niacin (mg) (calc)",1.0
+V00DTANZN,"SAQ:Block Brief 2000: daily nutrients from food, zinc from animal sources (mg) (calc)",1.0
+V00DTLUT,"SAQ:Block Brief 2000: daily nutrients from food, lutein (carotenoid) (ug) (calc)",1.0
+V00BAPFAT,"SAQ:Block Brief 2000: daily % of calories from fat, alcoholic beverages excluded from denominator (kcal) (calc)",1.0
+V00PCTCARB,SAQ:Block Brief 2000: daily percent of calories from carbohydrate (kcal) (calc),1.0
+V00PCTSWT,"SAQ:Block Brief 2000: daily percent of calories from sweets, desserts (kcal) (calc)",1.0
+V00DTACAR,"SAQ:Block Brief 2000: daily nutrients from food, alpha-carotene (ug) (calc)",1.0
+V00SUPCA,"SAQ:Block Brief 2000: average daily nutrients from vitamin supplements, calcium (mg) (calc)",1.0
+V00SRVGRN,"SAQ:Block Brief 2000: daily servings of bread, cereals, rice and pasta (calc)",1.0
+V00SRVFRT,SAQ:Block Brief 2000: daily servings of fruits and fruit juices (calc),1.0
+V00SUPFOL,"SAQ:Block Brief 2000: average daily nutrients from vitamin supplements, folate (mcg) (calc)",1.0
+V00DTBCAR,"SAQ:Block Brief 2000: daily nutrients from food, beta-carotene (ug) (calc)",1.0
+V00DTPROT,"SAQ:Block Brief 2000: daily nutrients from food, protein (g) (calc)",1.0
+V00NWARNS,"SAQ:Block Brief 2000: error flag, how many warnings were applied (calc)",1.0
+V00DTPOTA,"SAQ:Block Brief 2000: daily nutrients from food, potassium (mg) (calc)",1.0
+V00DTSFAT,"SAQ:Block Brief 2000: daily nutrients from food, saturated fat (g) (calc)",1.0
+V00SUPVITC,"SAQ:Block Brief 2000: average daily nutrients supplements, vitamin C (mg) (calc)",1.0
+V00DTOLEC,"SAQ:Block Brief 2000: daily nutrients from food, monounsaturated fat (g) (calc)",1.0
+V00SUPBCAR,"SAQ:Block Brief 2000: average daily nutrients from vitamin supplements, beta-carotene (ug) (calc)",1.0
+V00DTKCAL,"SAQ:Block Brief 2000: daily nutrients from food, calories (Kcal) (calc)",1.0
+V00BAPPROT,"SAQ:Block Brief 2000: daily % of calories from protein, alcoholic beverages excluded from denominator (kcal) (calc)",1.0
+V00BAPCARB,"SAQ:Block Brief 2000: daily % of calories from carbohydrate, alcoholic beverages excluded from denominator (kcal) (calc)",1.0
+V00SUPVITA,"SAQ:Block Brief 2000: average daily nutrients from vitamin supplements, vitamin A (IU) (calc)",1.0
+V00SUPB6,"SAQ:Block Brief 2000: average daily nutrients from vitamin supplements, B6 (mg) (calc)",1.0
+V00NFDSDAY,"SAQ:Block Brief 2000: error flag, number of solid foods consumed per day (calc)",1.0
+V00DTNIAC,"SAQ:Block Brief 2000: daily nutrients from food, niacin (mg) (calc)",1.0
+V00FIBBEAN,SAQ:Block Brief 2000: daily dietary fiber from beans (g) (calc),1.0
+V00DTNA,"SAQ:Block Brief 2000: daily nutrients from food, sodium (mg) (calc)",1.0
+V00DTARE,"SAQ:Block Brief 2000: daily nutrients from food, vitamin A (RE) (calc)",1.0
+V00DTLYC,"SAQ:Block Brief 2000: daily nutrients from food, lycopene (carotenoid) (ug) (calc)",1.0
+V00DTFAT,"SAQ:Block Brief 2000: daily nutrients from food, total fat (g) (calc)",1.0
+V00PCTSMAL,"SAQ:Block Brief 2000: error flag, percent of foods marked as small portion (calc)",1.0
+V00SUPFE,"SAQ:Block Brief 2000: average daily nutrients from vitamin supplements, iron (mg) (calc)",1.0
+V00SUPCU,"SAQ:Block Brief 2000: average daily nutrients from vitamin supplements, copper (mg) (calc)",1.0
+V00DTB12,"SAQ:Block Brief 2000: daily nutrients from food, vitamin B12 (ug) (calc)",1.0
+V00DTGEN,"SAQ:Block Brief 2000: daily nutrients from food, genistein (ug) (calc)",1.0
+V00DTMETH,"SAQ:Block Brief 2000: daily nutrients from food, methionine (mg) (calc)",1.0
+V00SUPZINC,"SAQ:Block Brief 2000: average daily nutrients from vitamin supplements, zinc (mg) (calc)",1.0
+V00SRVVEG,SAQ:Block Brief 2000: daily servings of vegetables (calc),1.0
+V00DTCALC,"SAQ:Block Brief 2000: daily nutrients from food, calcium (mg) (calc)",1.0
+V00SUPMG,"SAQ:Block Brief 2000: average daily nutrients from vitamin supplements, magnesium (mg) (calc)",1.0
+V00DTDAID,"SAQ:Block Brief 2000: daily nutrients from food, daidzein (ug) (calc)",1.0
+V00SRVMEAT,"SAQ:Block Brief 2000: daily servings of meat, fish, poultry, beans and eggs (calc)",1.0
+V00DTFE,"SAQ:Block Brief 2000: daily nutrients from food, iron (mg) (calc)",1.0
+V00FIBGRN,SAQ:Block Brief 2000: daily dietary fiber from grains (g) (calc),1.0
+V00DTCYST,"SAQ:Block Brief 2000: daily nutrients from food, cysteine (mg) (calc)",1.0
+V00DTSF,"SAQ:Block Brief 2000: grams of solid food (g), per week (calc)",1.0
+V00PCTPROT,SAQ:Block Brief 2000: daily percent of calories from protein (kcal) (calc),1.0
+V00SRVDRY,"SAQ:Block Brief 2000: daily servings of milk, yogurt and cheese (calc)",1.0
+V00DTB6,"SAQ:Block Brief 2000: daily nutrients from food, vitamin B6 (mg) (calc)",1.0
+V00SUPB1,"SAQ:Block Brief 2000: average daily nutrients from vitamin supplements, B1 (mg) (calc)",1.0
+V00SUPSE,"SAQ:Block Brief 2000: average daily nutrients from vitamin supplements, selenium (mcg) (calc)",1.0
+V00DTMG,"SAQ:Block Brief 2000: daily nutrients from food, magnesium (mg) (calc)",1.0
+V00PCTFAT,SAQ:Block Brief 2000: daily percent of calories from fat (kcal) (calc),1.0
+V00DTVITD,"SAQ:Block Brief 2000: daily nutrients from food, vitamin D (IU) (calc)",1.0
+V00DTPROA,"SAQ:Block Brief 2000: daily nutrients from food, carotene, provitamin A carotenoids (ug) (calc)",1.0
+V00DTCARB,"SAQ:Block Brief 2000: daily nutrients from food, carbohydrate (g) (calc)",1.0
+V00PCTALCH,SAQ:Block Brief 2000: daily percent of calories from alcoholic beverages (kcal) (calc),1.0
+V00DTFOL,"SAQ:Block Brief 2000: daily nutrients from food, folate (mcg) (calc)",1.0
+V00DTLIN,"SAQ:Block Brief 2000: daily nutrients from food, polyunsaturated fat (g) (calc)",1.0
+V00PCTLARG,"SAQ:Block Brief 2000: error flag, percent of foods marked as large portion (calc)",1.0
+V00DTVITE,"SAQ:Block Brief 2000: daily nutrients from food, vitamin E a-TE (calc)",1.0
+V00NNOSERV,"SAQ:Block Brief 2000: error flag, number of food items with serving size omitted (calc)",1.0
+V00NSKIP,"SAQ:Block Brief 2000: error flag, number of food items skipped (calc)",1.0
+V00DTCRYP,"SAQ:Block Brief 2000: daily nutrients from food, cryptoxanthin (carotenoid) (ug) (calc)",1.0
+V00PCTMEDS,"SAQ:Block Brief 2000: error flag, percent of foods marked as medium portion (calc)",1.0
+V00DTRIBO,"SAQ:Block Brief 2000: daily nutrients from food, riboflavin (B2) (mg) (calc)",1.0
+V00NERRORS,"SAQ:Block Brief 2000: error flag, how many serious errors were applied (calc)",1.0
+V00DTZINC,"SAQ:Block Brief 2000: daily nutrients from food, zinc (mg) (calc)",1.0
+V00FFQFLG5,"SAQ:Block Brief 2000: exclusion criteria flag, more than 15% of questions were skipped (calc)",1.0
+V00FFQFLG2,"SAQ:Block Brief 2000: exclusion criteria flag,kcal less than 800/greater than 4200 (men only),kcal less than 500/greater than 3500 (women only)(calc)",1.0
+V00FFQFLG1,"SAQ:Block Brief 2000: exclusion criteria flag, kcal less than 500 or greater than 5000 (men and women) (calc)",1.0
+V00FFQFLG4,"SAQ:Block Brief 2000: exclusion criteria flag, kcals greater than 3 times the interquartile range (calc)",1.0
+V00FFQFLG3,"SAQ:Block Brief 2000: exclusion criteria flag, kcals greater than 2 standard deviations from the mean (calc)",1.0
+V00FFQSZW,"SAQ:Block Brief 2000: wine/wine coolers, how many glasses each time (calc)",1.0
+V00FFQSZL,"SAQ:Block Brief 2000: liquor/mixed drinks, how many drinks each time (calc)",1.0
+P01STFID2,SV:Height (standing): staff ID#,0.0
+P01STFID1,SV:Weight: staff ID #,0.0
+P01HESTFID,SV:Hand exam: staff ID #,0.0
+V00BPSTFID,EV:Blood pressure: staff ID #,0.0
+V00BPCFSZ,EV:Q1.Blood pressure: what cuff size used,0.0
+V00BPARM,EV:Q2.Blood pressure: what arm used to take measurement,0.0
+V00BPTERM,EV:Q5.Blood pressure: was measurement terminated because MIL is >=300 mm Hg after second reading,1.0
+V00BPSYS,EV:Q6.Blood pressure: systolic (mm Hg),1.0
+V00BPDIAS,EV:Q6.Blood pressure: diastolic (mm Hg),1.0
+V00RPSTFID,EV:Radial pulse: staff ID #,0.0
+V00RPAVG,EV:Radial pulse: average beats per minute,1.0
+V00ACSTFID,EV:Abdominal circumference: staff ID #,0.0
+V00MAXCIRC,EV:Q7.Abdominal circumference: was maximal circumference (greatest protuberance) below the measured circumference,1.0
+V00SCSTFID,EV:Single chair stand: staff ID #,0.0
+V00CSTSGL,EV:Single chair stand,1.0
+V00RCSTFID,EV:Repeated chair stands: staff ID #,0.0
+V00CSTREP1,EV:Repeated chair stands: trial 1,1.0
+V00CSTIME1,EV:Repeated chair stands: trial 1 time (sec.hundredths/sec),1.0
+V00CSTNUM1,"EV:Repeated chair stands: trial 1, number completed without using arms",1.0
+V00CSTREP2,EV:Repeated chair stands: trial 2,1.0
+V00CSTIME2,EV:Repeated chair stands: trial 2 time (sec.hundredths/sec),1.0
+V00CSTNUM2,"EV:Repeated chair stands: trial 2, number completed without using arms",1.0
+V00KIKBALL,EV:Q1.Isometric strength: which leg use to kick ball,1.0
+V00EKRSR,"EV:Q2.Isometric strength: right knee, ever had knee replacement surgery",1.0
+V00RLLGTH,EV:Q3.Isometric strength: right leg length from transducer to joint line (cm),1.0
+V00RLBACK,"EV:Q4a.Isometric strength: right leg chair and transducer settings, back support (cm)",1.0
+V00RLARM,"EV:Q4b.Isometric strength: right leg chair and transducer settings, arm support (cm)",1.0
+V00RLHORIZ,"EV:Q4c.Isometric strength: right leg chair and transducer settings, horizontal bar (knee angle fix) (cm)",1.0
+V00RLVERT,"EV:Q4d.Isometric Strength: right leg chair and transducer settings, vertical bar (height) (cm)",1.0
+V00REXPN,"EV:Q7.Isometric strength: right knee extension, any knee pain during test",1.0
+V00REXCOMP,"EV:Q8.Isometric strength: right knee extension, able to complete (3) measurements",1.0
+V00REXWHY1,"EV:Q8a.Isometric strength: right knee extension, not able to complete measurements, knee pain",1.0
+V00REXWHY2,"EV:Q8a.Isometric strength: right knee extension, not able to complete measurements, equipment problems",1.0
+V00REXWHY3,"EV:Q8a.Isometric strength: right knee extension, not able to complete measurements, participant fatigue",1.0
+V00REXWHY4,"EV:Q8a.Isometric strength: right knee extension, not able to complete measurements, participant refused",1.0
+V00REXWHY5,"EV:Q8a.Isometric strength: right knee extension, not able to complete measurements, other",1.0
+V00RFXPN,"EV:Q10.Isometric strength: right knee flexion, any knee pain during test",1.0
+V00RFXCOMP,"EV:Q11.Isometric strength: right knee flexion, able to complete (3) measurements",1.0
+V00RFXWHY1,"EV:Q11a.Isometric strength: right knee flexion, not able to complete measurements, knee pain",1.0
+V00RFXWHY2,"EV:Q11a.Isometric strength: right knee flexion, not able to complete measurements, equipment problems",1.0
+V00RFXWHY3,"EV:Q11a.Isometric strength: right knee flexion, not able to complete measurements, participant fatigue",1.0
+V00RFXWHY4,"EV:Q11a.Isometric strength: right knee flexion, not able to complete measurements, participant refused",1.0
+V00RFXWHY5,"EV:Q11a.Isometric strength: right knee flexion, not able to complete measurements, other",1.0
+V00EKRSL,"EV:Q12.Isometric strength: left knee, ever had knee replacement surgery",1.0
+V00LLLGTH,EV:Q13.Isometric strength: left leg length from transducer to joint line (cm),1.0
+V00TRANSET,EV:Q14.Isometric strength: chair and transducer settings for left leg same as right leg settings,1.0
+V00LLBACK,"EV:Q15a.Isometric strength: left leg chair and transducer settings, back support (cm)",1.0
+V00LLARM,"EV:Q15b.Isometric strength: left leg chair and transducer settings, arm support (cm)",1.0
+V00LLHORIZ,"EV:Q15c.Isometric strength: left leg chair and transducer settings, horizontal bar (knee angle fix) (cm)",1.0
+V00LLVERT,"EV:Q15d.Isometric strength: left leg chair and transducer settings, vertical bar (height) (cm)",1.0
+V00LEXPN,"EV:Q18.Isometric strength: left knee extension, any knee pain during test",1.0
+V00LEXCOMP,"EV:Q19.Isometric strength: left knee extension, able to complete (3) measurements",1.0
+V00LEXWHY1,"EV:Q19a.Isometric strength: left knee extension, not able to complete measurements, knee pain",1.0
+V00LEXWHY2,"EV:Q19a.Isometric strength: left knee extension, not able to complete measurements, equipment problems",1.0
+V00LEXWHY3,"EV:Q19a.Isometric strength: left knee extension, not able to complete measurements, participant fatigue",1.0
+V00LEXWHY4,"EV:Q19a.Isometric strength: left knee extension, not able to complete measurements, participant refused",1.0
+V00LEXWHY5,"EV:Q19a.Isometric strength: left knee extension, not able to complete measurements, other",1.0
+V00LFXPN,"EV:Q21.Isometric strength: left knee flexion, any knee pain during test",1.0
+V00LFXCOMP,"EV:Q22.Isometric strength: left knee flexion, able to complete (3) measurements",1.0
+V00LFXWHY1,"EV:Q22a.Isometric strength: left knee flexion, not able to complete measurements, knee pain",1.0
+V00LFXWHY2,"EV:Q22a.Isometric strength: left knee flexion, not able to complete measurements, equipment problems",1.0
+V00LFXWHY3,"EV:Q22a.Isometric strength: left knee flexion, not able to complete measurements, participant fatigue",1.0
+V00LFXWHY4,"EV:Q22a.Isometric strength: left knee flexion, not able to complete measurements, participant refused",1.0
+V00LFXWHY5,"EV:Q22a.Isometric strength: left knee flexion, not able to complete measurements, other",1.0
+V00W2STFID,EV:20-meter walk: staff ID #,0.0
+V00STEPST1,EV:Q1.20-meter walk: trial 1 number of steps,1.0
+V00TIMET1,EV:Q1.20-meter walk: trial 1 time to complete (sec.hundredths/sec),1.0
+V00WLK20T1,EV:Q1.20-meter walk: trial 1 result,1.0
+V00STEPST2,EV:Q2.20-meter walk: trial 2 number of steps,1.0
+V00TIMET2,EV:Q2.20-meter walk: trial 2 time to complete (sec.hundredths/sec),1.0
+V00WLK20T2,EV:Q2.20-meter walk: trial 2 result,1.0
+V00WLKAID,EV:Q3.20-meter walk: using walking aid such as cane,1.0
+V00W4STFID,EV:400-meter walk: staff ID #,0.0
+V00W20COMP,EV:Q1.400-meter walk eligibility: able to complete trial 1 and trial 2 of the 20-meter walk,1.0
+V00WALKER,EV:Q6.400-meter walk eligibility: use walker or quad cane when walk,1.0
+V00SAFEWLK,EV:Q12.400-meter walk eligibility: feel it would be safe to try to walk up and down hallway,1.0
+V00HRB4WLK,EV:Q1.400-meter walk: heart rate before walk,1.0
+V00RESTT1,EV:Q3a.400-meter walk: rest stop #1,1.0
+V00RESTT2,EV:Q3b.400-meter walk: rest stop #2,1.0
+V00RESTT3,EV:Q3c.400-meter walk: rest stop #3,1.0
+V00RESTT4,EV:Q3d.400-meter walk: rest stop #4,1.0
+V00RESTT5,EV:Q3e.400-meter walk: rest stop #5,1.0
+V00RESTT6,EV:Q3f.400-meter walk: rest stop #6,1.0
+V00RESTT7,EV:Q3g.400-meter walk: rest stop #7,1.0
+V00RESTT8,EV:Q3h.400-meter walk: rest stop #8,1.0
+V00RESTT9,EV:Q3i.400-meter walk: rest stop #9,1.0
+V00RESTT10,EV:Q3j.400-meter walk: rest stop #10,1.0
+V00NUMSTOP,EV:Q4.400-meter walk: total number rest stops,1.0
+V00HR400WK,EV:Q8.400-meter walk: heart rate at 400-m or at stop,1.0
+V00HR135,EV:Q9.400-meter walk: heart rate exceed 135 bpm during walk,1.0
+V00CANEUSE,EV:Q10.400-meter walk: use cane,1.0
+V00COMP10,EV:Q11.400-meter walk: complete full 10 laps,1.0
+V00REASW1,"EV:Q11a.400-meter walk: not able to complete 10 laps, excluded based on eligibility criteria",1.0
+V00REASW2,"EV:Q11a.400-meter walk: not able to complete 10 laps, began walk but could not complete",1.0
+V00REASW3,"EV:Q11a.400-meter walk: not able to complete 10 laps, heart rate exceeded 135 bpm during walk and did not feel well",1.0
+V00REASW4,"EV:Q11a.400-meter walk: not able to complete 10 laps, heart rate fell below 40 bpm during walk",1.0
+V00REASW5,"EV:Q11a.400-meter walk: not able to complete 10 laps, reported felt too tired during walk",1.0
+V00REASW6,"EV:Q11a.400-meter walk: not able to complete 10 laps, reported chest pain during walk",1.0
+V00REASW7,"EV:Q11a.400-meter walk: not able to complete 10 laps, reported shortness of breath during walk",1.0
+V00REASW8,"EV:Q11a.400-meter walk: not able to complete 10 laps, reported feeling faint during walk",1.0
+V00REASW9,"EV:Q11a.400-meter walk: not able to complete 10 laps, reported knee pain during walk",1.0
+V00REASW10,"EV:Q11a.400-meter walk: not able to complete 10 laps, reported hip pain during walk",1.0
+V00REASW11,"EV:Q11a.400-meter walk: not able to complete 10 laps, reported calf pain during walk",1.0
+V00REASW12,"EV:Q11a.400-meter walk: not able to complete 10 laps, reported back pain during walk",1.0
+V00REASW13,"EV:Q11a.400-meter walk: not able to complete 10 laps, sat down during walk",1.0
+V00REASW14,"EV:Q11a.400-meter walk: not able to complete 10 laps, more than 15 minutes elapsed from start of test",1.0
+V00REASW15,"EV:Q11a.400-meter walk: not able to complete 10 laps, refused",1.0
+V00REASW16,"EV:Q11a.400-meter walk: not able to complete 10 laps, other",1.0
+V00DISCOMF,EV:Q12.400-meter walk: any discomfort,1.0
+V00SOB400W,"EV:Q12a.400-meter walk: type of discomfort, shortness of breath",1.0
+V00WHE400W,"EV:Q12a.400-meter walk: type of discomfort, wheezing/dyspnea",1.0
+V00PN400W,"EV:Q12a.400-meter walk: type of discomfort, pain",1.0
+V00OTH400W,"EV:Q12a.400-meter walk: type of discomfort, other",1.0
+V00RPN400W,EV:Q13.400-meter walk: right knee pain during walk,1.0
+V00RPWKTYP,"EV:Q13i.400-meter walk: right knee pain mild, moderate or severe",1.0
+V00RPWKPRV,EV:Q13ii.400-meter walk: right knee pain prevent from walking at usual pace,1.0
+V00LPN400W,EV:Q13.400-meter walk: left knee pain during walk,1.0
+V00LPWKTYP,"EV:Q13i.400-meter walk: left knee pain mild, moderate or severe",1.0
+V00LPWKPRV,EV:Q13ii.400-meter walk: left knee pain prevent walking at usual pace,1.0
+V00NPN400W,EV:Q13.400-meter walk: no knee pain during walk,1.0
+V00DKP400W,"EV:Q13.400-meter walk: knee pain during walk, don't know",1.0
+V00RFP400W,"EV:Q13.400-meter walk: knee pain during walk, refused",1.0
+V00K1STFID,EV:Knee exam: staff ID #,0.0
+V00RKPATPN,"EV:Right knee exam: patellar quadriceps tendinitis, pain/tenderness at any four sites",1.0
+V00LKPATPN,"EV:Left knee exam: patellar quadriceps tendinitis, pain/tenderness at any four sites",1.0
+V00RKEFFB,"EV:Right knee exam: effusion, bulge sign positive",1.0
+V00RKEFFPT,"EV:Right knee exam: effusion, patellar tap positive",1.0
+V00LKEFFB,"EV:Left knee exam: effusion, bulge sign positive",1.0
+V00LKEFFPT,"EV:Left knee exam: effusion, patellar tap positive",1.0
+V00RKRFXPN,EV:Right knee exam: knee flexion pain/tenderness present on exam,1.0
+V00LKRFXPN,EV:Left knee exam: knee flexion pain/tenderness present on exam,1.0
+V00RKLTTPN,EV:Right knee exam: lateral tibiofemoral pain/tenderness present on exam,1.0
+V00RKMTTPN,EV:Right knee exam: medial tibiofemoral pain/tenderness present on exam,1.0
+V00RKABPN,"EV:Right knee exam: anserine bursa, pain/tenderness present on exam",1.0
+V00LKLTTPN,EV:Left knee exam: lateral tibiofemoral pain/tenderness present on exam,1.0
+V00LKMTTPN,EV:Left knee exam: medial tibiofemoral pain/tenderness present on exam,1.0
+V00LKABPN,"EV:Left knee exam: anserine bursa, pain/tenderness present on exam",1.0
+V00RKPFCRE,EV:Right knee exam: patello-femoral crepitus present on exam,1.0
+V00LKPFCRE,EV:Left knee exam: patello-femoral crepitus present on exam,1.0
+V00RKPGDPN,"EV:Right knee exam: patellar grind, painful or tender behind knee cap",1.0
+V00LKPGDPN,"EV:Left knee exam: patellar grind, painful or tender behind knee cap",1.0
+V00LLWGT,EV:Q16.Isometric strength: left leg weight (N),1.0
+V00RLWGT,EV:Q5.Isometric strength: right leg weight (N),1.0
+P01HEIGHT,SV:Average height (mm) (calc),1.0
+P01WEIGHT,SV:Average current scale weight (kg) (calc),1.0
+P01BMI,SV:Body mass index (calc),1.0
+P01RH1CV,SV:Right hand exam: joint 1 (calc),1.0
+P01RH2CV,SV:Right hand exam: joint 2 (calc),1.0
+P01RH3CV,SV:Right hand exam: joint 3 (calc),1.0
+P01RH4CV,SV:Right hand exam: joint 4 (calc),1.0
+P01RH5CV,SV:Right hand exam: joint 5 (calc),1.0
+P01LH1CV,SV:Left hand exam: joint 1 (calc),1.0
+P01LH2CV,SV:Left hand exam: joint 2 (calc),1.0
+P01LH3CV,SV:Left hand exam: joint 3 (calc),1.0
+P01LH4CV,SV:Left hand exam: joint 4 (calc),1.0
+P01LH5CV,SV:Left hand exam: joint 5 (calc),1.0
+P01RHBE,SV:Right hand exam: total number of bony enlargements (calc),1.0
+P01LHBE,SV:Left hand exam: total number of bony enlargements (calc),1.0
+V00ABCIRC,EV:Abdominal circumference (cm) (calc),1.0
+V00CS5,EV:Repeated chair stands: able to complete 5 stands (calc),1.0
+V00CSPACE,EV WBK:Repeated chair stand: pace in stands/sec (calc),1.0
+V00REXP1CV,"EV:Q7a.Isometric strength: right knee extension, severity of pain (calc)",1.0
+V00REXP2CV,"EV:Q7b.Isometric strength: right knee extension, knee pain prevent from pushing as hard as can (calc)",1.0
+V00RFXP1CV,"EV:Q10a.Isometric strength: right knee flexion, severity of pain (calc)",1.0
+V00RFXP2CV,"EV:Q10b.Isometric strength: right knee flexion, pain prevent from pulling as hard as can (calc)",1.0
+V00LEXP1CV,"EV:Q18a.Isometric strength: left knee extension, severity of pain (calc)",1.0
+V00LEXP2CV,"EV:Q18b.Isometric strength: left knee extension, pain prevent from pushing as hard as can (calc)",1.0
+V00LFXP1CV,"EV:Q21a.Isometric strength: left knee flexion, severity of pain (calc)",1.0
+V00LFXP2CV,"EV:Q21b.Isometric strength: left knee flexion, pain prevent from pulling as hard as can (calc)",1.0
+V0020MPACE,EV:20-meter walk: pace (m/sec) (calc),1.0
+V00400MTR,EV:400-meter walk: total meters walked (calc),1.0
+V00KEXAMK,EV:Knee exam: knee eligible to be examined (calc),1.0
+V00RKFHDEG,"EV:Right knee exam: flexion contracture/hyperextension, degrees (contracture positive) (calc)",1.0
+V00LKFHDEG,"EV:Left knee exam: flexion contracture/hyperextension, degrees (contracture positive) (calc)",1.0
+V00RKALNMT,"EV:Right knee exam: alignment, degrees (valgus negative) (calc)",1.0
+V00LKALNMT,"EV:Left knee exam: alignment, degrees (valgus negative) (calc)",1.0
+V00isstfid,Isometric Strength Staff ID #,0.0
+V00isexmdt,ExamDate,0.0
+V00rftrial,Right Flexion MAX Force TRIAL No,1.0
+V00rfmaxf,Right Flexion MAX Force,1.0
+V00rfTLPL,Right Flexion MAX Force Low Production Limit,1.0
+V00rfTHPL,Right Flexion MAX Force High Production Limit,1.0
+V00rfTLRL,Right Flexion MAX Force Low Relaxation Limit,1.0
+V00rfTHRL,Right Flexion MAX Force High Relaxation Limit,1.0
+V00retrial,Right Extension MAX Force TRIAL No,1.0
+V00remaxf,Right Extension MAX Force,1.0
+V00reTLPL,Right Extension MAX Force Low Production Limit,1.0
+V00reTHPL,Right Extension MAX Force High Production Limit,1.0
+V00reTLRL,Right Extension MAX Force Low Relaxation Limit,1.0
+V00reTHRL,Right Extension MAX Force High Relaxation Limit,1.0
+V00lftrial,Left Flexion MAX Force TRIAL No,1.0
+V00lfmaxf,Left Flexion MAX Force,1.0
+V00lfTLPL,Left Flexion MAX Force Low Production Limit,1.0
+V00lfTHPL,Left Flexion MAX Force High Production Limit,1.0
+V00lfTLRL,Left Flexion MAX Force Low Relaxation Limit,1.0
+V00lfTHRL,Left Flexion MAX Force High Relaxation Limit,1.0
+V00letrial,Left Extension MAX Force TRIAL No,1.0
+V00lemaxf,Left Extension MAX Force,1.0
+V00leTLPL,Left Extension MAX Force Low Production Limit,1.0
+V00leTHPL,Left Extension MAX Force High Production Limit,1.0
+V00leTLRL,Left Extension MAX Force Low Relaxation Limit,1.0
+V00leTHRL,Left Extension MAX Force High Relaxation Limit,1.0
+V00CALLDOC,"EV:Q7.400-meter walk eligibility: had to see or call doctor for worsening angina (chest or heart pain) or worsening shortness of breath, past 3 months",1.0
+V00HRELG,EV:400-meter walk eligibility: meets old or new heart rate exclusion criterion (calc),1.0
+V00SYSELG,EV:400-meter walk eligibility: meets new or old systolic blood pressure exclusion criterion (calc),1.0
+V00DIASELG,EV:400-meter walk eligibility: meets new or old diastolic blood pressure exclusion criterion (calc),1.0
+V00400MCMP,EV:400-meter walk: completion status (calc),1.0
+V00400MTIM,EV:400-meter walk: total time at 400-m or at stop (sec) (calc),1.0
+V00rexcmp2,Right Extension Completed >=2 Good Trials,1.0
+V00lexcmp2,Left Extension Completed >=2 Good Trials,1.0
+V00rfxcmp2,Right Flexion Completed >=2 Good Trials,1.0
+V00lfxcmp2,Left Flexion Completed >=2 Good Trials,1.0
+V00400PAIN,"EV:400-meter walk: knee pain, which leg (calc)",1.0
+V00lkdefcv,EV:Left knee exam: alignment varus or valgus (calc),1.0
+V00rkdefcv,EV:Right knee exam: alignment varus or valgus (calc),1.0
+V00400EXCL,EV:400-meter walk: reason excluded (calc),1.0
+V00HOSPSUR,EV:400-meter walk eligibility: meets new or old hospitalization/surgery exclusion criteria (calc),1.0
+V00rfSFR,Right Flexion Speed of Force Relaxation,1.0
+V00leSFR,Left Extension Speed of Force Relaxation,1.0
+V00lfSFP,Left Flexion Speed of Force Production,1.0
+V00reSFP,Right Extension Speed of Force Production,1.0
+V00reSFR,Right Extension Speed of Force Relaxation,1.0
+V00lfSFR,Left Flexion Speed of Force Relaxation,1.0
+V00rfSFP,Right Flexion Speed of Force Production,1.0
+V00leSFP,Left Extension Speed of Force Production,1.0
+P02DATE,IEI:Date Initial Eligibility Interview completed,0.0
+P02KRS3,"IEI:Q13.Either knee, considering knee replacement surgery, next 3 years",1.0
+P02PA1,IEI:Q14a.Climb up total of 10 or more flights of stairs on most days,1.0
+P02PA2,IEI:Q14b.Kneel for 30 minutes or more on most days,1.0
+P02PA3,IEI:Q14c.Squat or deep knee bend for 30 minutes or more on most days,1.0
+P02PA4,IEI:Q14d.Lift or move objects weighing 25 lbs. or more by hand on most days,1.0
+P02FAMHXKR,"IEI:Q15.Mother, father, sister, or brother (blood relative) had knee repl surgery where all/part of knee replaced (used for study eligibility)",1.0
+P02JBMP,IEI:Q16.Observe obvious hard bumps on joints closest to fingertips,1.0
+P02STMED,IEI:Q23.Participating in any research study that includes taking medications or supplements,1.0
+P02HR1,IEI:Q42.How heard about OAI: brochure,0.0
+P02HR2,IEI:Q42.How heard about OAI: doctor,0.0
+P02HR3,IEI:Q42.How heard about OAI: flyer,0.0
+P02HR4,IEI:Q42.How heard about OAI: friend/family,0.0
+P02HR5,IEI:Q42.How heard about OAI: mail,0.0
+P02HR6,IEI:Q42.How heard about OAI: newspaper,0.0
+P02HR7,IEI:Q42.How heard about OAI: radio advertisement,0.0
+P02HR8,IEI:Q42.How heard about OAI: television,0.0
+P02HR9,IEI:Q42.How heard about OAI: other,0.0
+P02HR10,IEI:Q42.How heard about OAI: don't know/don't remember,0.0
+P02HR11,IEI:Q42.How heard about OAI: refused,0.0
+P01SVDATE,SV:Date Screening Visit completed,0.0
+P01FAMHR,"SV:Q12.Mother, father, sister, or brother (blood relative) had hip replacement surgery for arthritis, where all or part of hip joint replaced",1.0
+P01FAMKR,"SV:Q13.Mother, father, sister, or brother (blood relative) had knee replacement surgery for arthritis, where all or part of knee joint replaced",1.0
+P01MRIB4,SV:Q1.Ever had MRI before,0.0
+P01MRCMP,SV:Q1b.Able to complete MRI scan,0.0
+P01CLAU,SV:Q4.Have claustrophobia,0.0
+V00MARITST,SAQ:Q3.Marital status,1.0
+V00LIVE1,SAQ:Q5.Live with spouse,1.0
+V00LIVE2,SAQ:Q5.Live with romantic partner,1.0
+V00LIVE3,SAQ:Q5.Live with children,1.0
+V00LIVE4,SAQ:Q5.Live with other relatives or friends,1.0
+V00LIVE5,"SAQ:Q5.Live with someone else (not child, spouse, romantic partner)",1.0
+V00HLTHCAR,SAQ:Q7a.Where usually go for health care or advice about health care,1.0
+V00HLTHCOV,SAQ:Q8.Currently have any kind of health care coverage,1.0
+V00MEDINS,SAQ:Q9.Have any health insurance plan that pays for all or part of cost of prescription medicines,1.0
+V00EVDATE,EV:Date Enrollment Visit completed,0.0
+V00PA230,"EV:Q29.Kneel 30 minutes or more during single day, past 30 days",1.0
+V00PA330,"EV:Q30.Squat 30 minutes or more during single day, past 30 days",1.0
+V00PA530,"EV:Q31.Get in and out of squatting position 10 or more times during single day, past 30 days",1.0
+V00PA430,"EV:Q32.Lift or move objects weighing 25 pounds or more by hand during single day, past 30 days",1.0
+V00PA130,"EV:Q33.Climb up a total of 10 or more flights of stairs during single day, past 30 days (one flight is about 10 steps)",1.0
+V00PA130NM,"EV:Q34.How many flights of stairs have you climbed up, past 7 days (one flight equals 10 steps)",1.0
+V00PASE1,"EV:Leisure activities: sitting, past 7 days",1.0
+V00PASE1HR,"EV:Leisure activities: sitting, hours per day, past 7 days",1.0
+V00PASE2,"EV:Leisure activities: walking, past 7 days",1.0
+V00PASE2HR,"EV:Leisure activities: walking, hours per day, past 7 days",1.0
+V00PASE3,"EV:Leisure activities: light sport/recreation, past 7 days",1.0
+V00PASE3HR,"EV:Leisure activities: light sport/recreation, hours per day, past 7 days",1.0
+V00PASE4,"EV:Leisure activities: moderate sport/recreation, past 7 days",1.0
+V00PASE4HR,"EV:Leisure activities: moderate sport/recreation, hours per day, past 7 days",1.0
+V00PASE5,"EV:Leisure activities: strenuous sport/recreation, past 7 days",1.0
+V00PASE5HR,"EV:Leisure activities: strenuous sport/recreation, hours per day, past 7 days",1.0
+V00PASE6,"EV:Leisure activities: muscle strength/endurance, past 7 days",1.0
+V00PASE6HR,"EV:Leisure activities: muscle strength/endurance, hours per day, past 7 days",1.0
+V00HOUACT1,"EV:Household activities: light housework, past 7 days",1.0
+V00HOUACT2,"EV:Household activities: heavy housework, past 7 days",1.0
+V00HOUACT3,"EV:Household activities: home repairs, past 7 days",1.0
+V00HOUACT4,"EV:Household activities: lawn work/yard care, past 7 days",1.0
+V00HOUACT5,"EV:Household activities: outdoor gardening, past 7 days",1.0
+V00HOUACT6,"EV:Household activities: caring for another person, past 7 days",1.0
+V00WORK7,"EV:Occupational activities: work (pay/volunteer), past 7 days",1.0
+V00WORKAMT,"EV:Occupational activities: occupational activity level, past 7 days",1.0
+V00CUREMP,"EV:Q45.Currently work for pay (include self employed work for pay; answer Yes if on leave from work, expect to return within 6 months)",1.0
+V00WEEKWK,"EV:Q46.About how many weeks worked, past 12 months (include paid vacation weeks as weeks worked)",1.0
+V00HOURWK,"EV:Q47.When worked how many hours per week usually work, past 12 months (include any overtime hours usually worked)",1.0
+V00MISSWK,"EV:Q48.About how many half or full workdays missed because of knee pain, aching or stiffness, past 3 months",1.0
+P02WTGA,"IEI:Above weight cut-off for age/gender group (calc, used for study eligibility)",1.0
+P02KRS3CV,"IEI:Q13a.Which knee considering having replaced, next 3 years (calc)",1.0
+P02JBMPCV,"IEI:Q16a.Hard bumps on fingers of right hand, left hand or both hands (calc, if=3 used for study eligibility)",1.0
+P01MOMHRCV,SV:Q12a.Mother had hip replacement surgery (calc),1.0
+P01DADHRCV,SV:Q12b.Father had hip replacement surgery (calc),1.0
+P01SISHRCV,SV:Q12c.Sister had hip replacement surgery (calc),1.0
+P01BROHRCV,SV:Q12d.Brother had hip replacement surgery (calc),1.0
+P01MOMKRCV,SV:Q13a.Mother had knee replacement surgery (calc),1.0
+P01DADKRCV,SV:Q13b.Father had knee replacement surgery (calc),1.0
+P01SISKRCV,SV:Q13c.Sister had knee replacement surgery (calc),1.0
+P01BROKRCV,SV:Q13d.Brother had knee replacement surgery (calc),1.0
+P01MRKCBCV,SV:Q1c.Knees fit comfortably inside knee coil with coil completely closed (calc),1.0
+V00INCOME,SAQ:Yearly income (calc),1.0
+V00AGE,"EV:Age (calc, used for study eligibility)",1.0
+V00PA230CV,"EV:Q29a.How often kneel 30 minutes or more during typical week, past 30 days (calc)",1.0
+V00PA330CV,"EV:Q30a.How often squat for 30 minutes or more during typical week, past 30 days (calc)",1.0
+V00PA530CV,"EV:Q31a.How often get in and out of squatting position 10 or more times during a typical week, past 30 days (calc)",1.0
+V00PA430CV,"EV:Q32a.How often lift or move objects weighing 25 pounds or more by hand during a typical week, past 30 days (calc)",1.0
+V00PA130CV,"EV:Q33a.How often climb up total of 10 or more flights of stairs during typical week, past 30 days (calc)",1.0
+V00PASE,EV:Physical Activity Scale for the Elderly (PASE) score (calc),1.0
+V00CEMPLOY,EV:Current employment (calc),1.0
+V00ENRCR1,"Enr Expn:Q1.Exception to eligibility criteria, no acceptable screening knee x-ray, can be for cohort assignment only",1.0
+V00ENRCR2,"Enr Expn:Q1.Exception to eligibility criteria, minimum MRI requirements for enrollment not met",1.0
+V00ENRCR3,"Enr Expn:Q1.Exception to eligibility criteria, minimum blood collection requirements for enrollment not met",1.0
+V00ENRCR4,"Enr Expn:Q1.Exception to eligibility criteria, minimum urine collection requirements for enrollment not met",1.0
+V00ENRCR5,"Enr Expn:Q1.Exception to eligibility criteria, minimum baseline requirements met but outside of designated window",1.0
+V00ENRCR6,"Enr Expn:Q1.Exception to eligibility criteria, did not fulfill risk-factor eligibility criteria for assigned cohort",1.0
+V00ENREXCP,Enr Expn:Participant has enrollment exception (calc),1.0
+V00HANDED,EV XR:Dominant hand for hand x-ray (calc),1.0
+P02STMEDCV,IEI:Q23a.Told what study medications taken for research study (calc),0.0
+P01MRPRBCV,SV:Q1a.Any problems related to the MRI scan (calc),0.0
+V00EDCV,SAQ:Q6.Highest grade or year of school completed (calc),1.0
+V00LIVENO,"SAQ:Q4.Besides self, how many other people live in household (calc)",1.0
+P02ELGRISK,"IEI:Knee symptoms, risk factors, or both, status at IEI/SV (calc)",1.0
+V00INCOME2,SAQ:Yearly income (>50K or <50K) (calc),1.0
+P02ACTRISK,"IEI:Engage in at least one frequent knee bending activity (calc, used for study eligibility initially)",1.0
+P02IKPRISK,"IEI:Either knee symptom status at IEI (calc, used for study eligibility)",1.0
+V00WKHR7CV,"EV:Occupational activities: number of hours worked, past 7 days (calc)",1.0
+P02HISP,P02HISP,1.0
+P02RACE,P02RACE,1.0
+P02SEX,P02SEX,1.0
+V00CHRTHLF,V00CHRTHLF,0.0
+V00COHORT,V00COHORT,0.0
+V00IMAGESA,V00IMAGESA,0.0
+V00IMAGESB,V00IMAGESB,0.0
+V00IMAGESC,V00IMAGESC,0.0
+V00IMAGESD,V00IMAGESD,0.0
+V00IMAGESE,V00IMAGESE,0.0
+V00IMAGESF,V00IMAGESF,0.0
+V00IMAGESG,V00IMAGESG,0.0
+V00SITE,V00SITE,0.0
+V01HADINTV,V01HADINTV,0.0
+V01IMAGESA,V01IMAGESA,0.0
+V01IMAGESB,V01IMAGESB,0.0
+V01IMAGESC,V01IMAGESC,0.0
+V01IMAGESD,V01IMAGESD,0.0
+V01IMAGESE,V01IMAGESE,0.0
+V01IMAGESF,V01IMAGESF,0.0
+V01IMAGESG,V01IMAGESG,0.0
+V02IMAGESD,V02IMAGESD,0.0
+V03IMAGESA,V03IMAGESA,0.0
+V03IMAGESB,V03IMAGESB,0.0
+V03IMAGESC,V03IMAGESC,0.0
+V03IMAGESD,V03IMAGESD,0.0
+V03IMAGESE,V03IMAGESE,0.0
+V03IMAGESF,V03IMAGESF,0.0
+V03IMAGESG,V03IMAGESG,0.0
+V04IMAGESG,V04IMAGESG,0.0
+V05IMAGESA,V05IMAGESA,0.0
+V05IMAGESB,V05IMAGESB,0.0
+V05IMAGESC,V05IMAGESC,0.0
+V05IMAGESD,V05IMAGESD,0.0
+V05IMAGESE,V05IMAGESE,0.0
+V05IMAGESF,V05IMAGESF,0.0
+V05IMAGESG,V05IMAGESG,0.0
+V06IMAGESA,V06IMAGESA,0.0
+V06IMAGESB,V06IMAGESB,0.0
+V06IMAGESC,V06IMAGESC,0.0
+V06IMAGESD,V06IMAGESD,0.0
+V06IMAGESE,V06IMAGESE,0.0
+V06IMAGESF,V06IMAGESF,0.0
+V06IMAGESG,V06IMAGESG,0.0
+V08IMAGESA,V08IMAGESA,0.0
+V08IMAGESB,V08IMAGESB,0.0
+V08IMAGESC,V08IMAGESC,0.0
+V08IMAGESD,V08IMAGESD,0.0
+V08IMAGESE,V08IMAGESE,0.0
+V08IMAGESF,V08IMAGESF,0.0
+V08IMAGESG,V08IMAGESG,0.0
+V10IMAGESA,V10IMAGESA,0.0
+V10IMAGESB,V10IMAGESB,0.0
+V10IMAGESC,V10IMAGESC,0.0
+V10IMAGESD,V10IMAGESD,0.0
+V10IMAGESE,V10IMAGESE,0.0
+V10IMAGESF,V10IMAGESF,0.0
+V10IMAGESG,V10IMAGESG,0.0
+KNEE_V00BARCDBU,BL/FU kXR reading (BU): barcode of image analyzed,0.0
+KNEE_V00XROSFM,BL/FU kXR reading (BU): osteophytes (OARSI grades 0-3) femur medial compartment,1.0
+KNEE_V00XRSCFM,BL/FU kXR reading (BU): sclerosis (OARSI grades 0-3) femur medial compartment,1.0
+KNEE_V00XRCYFM,BL/FU kXR reading (BU): cysts (Grades 0-1) femur medial compartment,1.0
+KNEE_V00XRJSM,BL/FU kXR reading (BU): joint space narrowing (OARSI grades 0-3) medial compartment,1.0
+KNEE_V00XRCHM,BL/FU kXR reading (BU): chondrocalcinosis (Grades 0-1) medial compartment,1.0
+KNEE_V00XROSTM,BL/FU kXR reading (BU): osteophytes (OARSI grades 0-3) tibia medial compartment,1.0
+KNEE_V00XRSCTM,BL/FU kXR reading (BU): sclerosis (OARSI grades 0-3) tibia medial compartment,1.0
+KNEE_V00XRCYTM,BL/FU kXR reading (BU): cysts (Grades 0-1) tibia medial compartment,1.0
+KNEE_V00XRATTM,BL/FU kXR reading (BU): attrition (OARSI grades 0-3) tibia medial compartment,1.0
+KNEE_V00XRKL,BL/FU kXR reading (BU): Kellgren and Lawrence (grades 0-4),1.0
+KNEE_V00XROSFL,BL/FU kXR reading (BU): osteophytes (OARSI grades 0-3) femur lateral compartment,1.0
+KNEE_V00XRSCFL,BL/FU kXR reading (BU): sclerosis (OARSI grades 0-3) femur lateral compartment,1.0
+KNEE_V00XRCYFL,BL/FU kXR reading (BU): cysts (Grades 0-1) femur lateral compartment,1.0
+KNEE_V00XRJSL,BL/FU kXR reading (BU): joint space narrowing (OARSI grades 0-3) lateral compartment,1.0
+KNEE_V00XRCHL,BL/FU kXR reading (BU): chondrocalcinosis (Grades 0-1) lateral compartment,1.0
+KNEE_V00XROSTL,BL/FU kXR reading (BU): osteophytes (OARSI grades 0-3) tibia lateral compartment,1.0
+KNEE_V00XRSCTL,BL/FU kXR reading (BU): sclerosis (OARSI grades 0-3) tibia lateral compartment,1.0
+KNEE_V00XRCYTL,BL/FU kXR reading (BU): cysts (Grades 0-1) tibia lateral compartment,1.0
+KNEE_V00XRATTL,BL/FU kXR reading (BU): attrition (OARSI grades 0-3) tibia lateral compartment,1.0
+OTHERKNEE_V00BARCDBU,(OTHER KNEE) BL/FU kXR reading (BU): barcode of image analyzed,0.0
+OTHERKNEE_V00XROSFM,(OTHER KNEE) BL/FU kXR reading (BU): osteophytes (OARSI grades 0-3) femur medial compartment,1.0
+OTHERKNEE_V00XRSCFM,(OTHER KNEE) BL/FU kXR reading (BU): sclerosis (OARSI grades 0-3) femur medial compartment,1.0
+OTHERKNEE_V00XRCYFM,(OTHER KNEE) BL/FU kXR reading (BU): cysts (Grades 0-1) femur medial compartment,1.0
+OTHERKNEE_V00XRJSM,(OTHER KNEE) BL/FU kXR reading (BU): joint space narrowing (OARSI grades 0-3) medial compartment,1.0
+OTHERKNEE_V00XRCHM,(OTHER KNEE) BL/FU kXR reading (BU): chondrocalcinosis (Grades 0-1) medial compartment,1.0
+OTHERKNEE_V00XROSTM,(OTHER KNEE) BL/FU kXR reading (BU): osteophytes (OARSI grades 0-3) tibia medial compartment,1.0
+OTHERKNEE_V00XRSCTM,(OTHER KNEE) BL/FU kXR reading (BU): sclerosis (OARSI grades 0-3) tibia medial compartment,1.0
+OTHERKNEE_V00XRCYTM,(OTHER KNEE) BL/FU kXR reading (BU): cysts (Grades 0-1) tibia medial compartment,1.0
+OTHERKNEE_V00XRATTM,(OTHER KNEE) BL/FU kXR reading (BU): attrition (OARSI grades 0-3) tibia medial compartment,1.0
+OTHERKNEE_V00XRKL,(OTHER KNEE) BL/FU kXR reading (BU): Kellgren and Lawrence (grades 0-4),1.0
+OTHERKNEE_V00XROSFL,(OTHER KNEE) BL/FU kXR reading (BU): osteophytes (OARSI grades 0-3) femur lateral compartment,1.0
+OTHERKNEE_V00XRSCFL,(OTHER KNEE) BL/FU kXR reading (BU): sclerosis (OARSI grades 0-3) femur lateral compartment,1.0
+OTHERKNEE_V00XRCYFL,(OTHER KNEE) BL/FU kXR reading (BU): cysts (Grades 0-1) femur lateral compartment,1.0
+OTHERKNEE_V00XRJSL,(OTHER KNEE) BL/FU kXR reading (BU): joint space narrowing (OARSI grades 0-3) lateral compartment,1.0
+OTHERKNEE_V00XRCHL,(OTHER KNEE) BL/FU kXR reading (BU): chondrocalcinosis (Grades 0-1) lateral compartment,1.0
+OTHERKNEE_V00XROSTL,(OTHER KNEE) BL/FU kXR reading (BU): osteophytes (OARSI grades 0-3) tibia lateral compartment,1.0
+OTHERKNEE_V00XRSCTL,(OTHER KNEE) BL/FU kXR reading (BU): sclerosis (OARSI grades 0-3) tibia lateral compartment,1.0
+OTHERKNEE_V00XRCYTL,(OTHER KNEE) BL/FU kXR reading (BU): cysts (Grades 0-1) tibia lateral compartment,1.0
+OTHERKNEE_V00XRATTL,(OTHER KNEE) BL/FU kXR reading (BU): attrition (OARSI grades 0-3) tibia lateral compartment,1.0
+KNEE_P01LXRKOA,"SV:Left knee baseline radiographic OA (definite osteophytes, calc, used in OAI definition of symptomatic knee OA)",1.0
+KNEE_P01SVLKOST,SV:Left knee baseline x-ray: evidence of knee osteophytes (calc),1.0
+KNEE_P01SVLKJSM,SV:Left knee baseline x-ray: evidence of knee medial joint space narrowing (calc),1.0
+KNEE_P01SVLKJSL,SV:Left knee baseline x-ray: evidence of knee lateral joint space narrowing (calc),1.0
+KNEE_P01SVLKMI,SV:Left knee baseline x-ray: evidence of knee metal artifacts (calc),1.0
+KNEE_P01LXRKOA2,SV:Left knee baseline x-ray: osteophytes and JSN (calc),1.0
+KNEE_V00XROSFML,SV:Left knee paired x-ray reading: osteophytes (OARSI grades 0-3) femur medial compartment (Image Sample B),1.0
+KNEE_V00XRSCFML,SV:Left knee paired x-ray reading: sclerosis (OARSI grades 0-3) femur medial compartment (Image Sample B),1.0
+KNEE_V00XRCYFML,SV:Left knee paired x-ray reading: cysts (Grades 0-1) femur medial compartment (Image Sample B),1.0
+KNEE_V00XRJSML,SV:Left knee paired x-ray reading: joint space narrowing (OARSI grades 0-3) medial compartment (Image Sample B),1.0
+KNEE_V00XRCHML,SV:Left knee paired x-ray reading: chondrocalcinosis (Grades 0-1) medial compartment (Image Sample B),1.0
+KNEE_V00XROSTML,SV:Left knee paired x-ray reading: osteophytes (OARSI grades 0-3) tibia medial compartment (Image Sample B),1.0
+KNEE_V00XRSCTML,SV:Left knee paired x-ray reading: sclerosis (OARSI grades 0-3) tibia medial compartment (Image Sample B),1.0
+KNEE_V00XRCYTML,SV:Left knee paired x-ray reading: cysts (Grades 0-1) tibia medial compartment (Image Sample B),1.0
+KNEE_V00XRATTML,SV:Left knee paired x-ray reading: attrition (OARSI grades 0-3) tibia medial compartment (Image Sample B),1.0
+KNEE_V00XRKLL,SV:Left knee paired x-ray reading: Kellgren and Lawrence (Grades 0-4) (Image Sample B),1.0
+KNEE_V00XROSFLL,SV:Left knee paired x-ray reading: osteophytes (OARSI grades 0-3) femur lateral compartment (Image Sample B),1.0
+KNEE_V00XRSCFLL,SV:Left knee paired x-ray reading: sclerosis (OARSI grades 0-3) femur lateral compartment (Image Sample B),1.0
+KNEE_V00XRCYFLL,SV:Left knee paired x-ray reading: cysts (Grades 0-1) femur lateral compartment (Image Sample B),1.0
+KNEE_V00XRJSLL,SV:Left knee paired x-ray reading: joint space narrowing (OARSI grades 0-3) lateral compartment (Image Sample B),1.0
+KNEE_V00XRCHLL,SV:Left knee paired x-ray reading: chondrocalcinosis (Grades 0-1) lateral compartment (Image Sample B),1.0
+KNEE_V00XROSTLL,SV:Left knee paired x-ray reading: osteophytes (OARSI grades 0-3) tibia lateral compartment (Image Sample B),1.0
+KNEE_V00XRSCTLL,SV:Left knee paired x-ray reading: sclerosis (OARSI grades 0-3) tibia lateral compartment (Image Sample B),1.0
+KNEE_V00XRCYTLL,SV:Left knee paired x-ray reading: cysts (Grades 0-1) tibia lateral compartment (Image Sample B),1.0
+KNEE_V00XRATTLL,SV:Left knee paired x-ray reading: attrition (OARSI grades 0-3) tibia lateral compartment (Image Sample B),1.0
+KNEE_P01OAGRDL,SV:Left knee baseline x-ray: composite OA grade (quasi KL grade) (calc),1.0
+KNEE_P01KPNLEV,"SV:Q17.Left knee pain, aching or stiffness: ever had more than half the days of a month",1.0
+KNEE_P01KPNLEVY,"SV:Q17a.Left knee pain, aching or stiffness: started about how many years ago",1.0
+KNEE_P01KPNL12,"SV:Q18.Left knee pain, aching or stiffness: any, past 12 months",1.0
+KNEE_P01KPNL12M,"SV:Q18ai.Left knee pain, aching or stiffness: how many months on more than half the days of a month, past 12 months",1.0
+KNEE_P01HPNL12,"SV:Q39.Left hip pain, aching or stiffness: any, past 12 months (includes pain in groin and in front and sides of upper thigh)",1.0
+KNEE_P01HPNLIL,"SV:Q39ai.Left hip pain, aching or stiffness location: groin/inside leg near hip",1.0
+KNEE_P01HPNLOL,"SV:Q39ai.Left hip pain, aching or stiffness location: outside of leg near hip",1.0
+KNEE_P01HPNLFL,"SV:Q39ai.Left hip pain, aching or stiffness location: front of leg near hip",1.0
+KNEE_P01HPNLB,"SV:Q39ai.Left hip pain, aching or stiffness location: buttocks",1.0
+KNEE_P01HPNLLB,"SV:Q39ai.Left hip pain, aching or stiffness location: lower back",1.0
+KNEE_P01HPNLDK,"SV:Q39ai.Left hip pain, aching or stiffness location: don't know",1.0
+KNEE_P01OJPNLS,"SV:Q44.Left shoulder pain, aching or stiffness: more than half the days, past 30 days",1.0
+KNEE_P01OJPNLE,"SV:Q44.Left elbow pain, aching or stiffness: more than half the days, past 30 days",1.0
+KNEE_P01OJPNLW,"SV:Q44.Left wrist pain, aching or stiffness: more than half the days, past 30 days",1.0
+KNEE_P01OJPNLH,"SV:Q44.Left hand/finger pain, aching or stiffness: more than half the days, past 30 days",1.0
+KNEE_P01OJPNLA,"SV:Q44.Left ankle pain, aching or stiffness: more than half the days, past 30 days",1.0
+KNEE_P01OJPNLF,"SV:Q44.Left foot pain, aching or stiffness: more than half the days, past 30 days",1.0
+KNEE_V00WPLKN1,"EV:Left knee pain: walking, last 7 days",1.0
+KNEE_V00WPLKN2,"EV:Left knee pain: stairs, last 7 days",1.0
+KNEE_V00WPLKN3,"EV:Left knee pain: in bed, last 7 days",1.0
+KNEE_V00WPLKN4,"EV:Left knee pain: sit or lie down, last 7 days",1.0
+KNEE_V00WPLKN5,"EV:Left knee pain: standing, last 7 days",1.0
+KNEE_V00KPLKN1,"EV:Q13a.Left knee pain: twisting/pivoting on knee, last 7 days",1.0
+KNEE_V00KPLKN2,"EV:Q13b.Left knee pain: straightening knee fully, last 7 days",1.0
+KNEE_V00KPLKN3,"EV:Q13c.Left knee pain: bending knee fully, last 7 days",1.0
+KNEE_V00P7LKFR,EV:Q14.Left knee pain: how often,1.0
+KNEE_V00WSLKN1,"EV:Left knee stiffness: in morning, last 7 days",1.0
+KNEE_V00WSLKN2,"EV:Left knee stiffness: later in day, last 7 days",1.0
+KNEE_V00KSXLKN1,"EV:Q17.Left knee symptoms: swelling, last 7 days",1.0
+KNEE_V00KSXLKN2,"EV:Q18.Left knee symptoms: feel grinding, hear clicking or any other type of noise when knee moves, last 7 days",1.0
+KNEE_V00KSXLKN3,"EV:Q19.Left knee symptoms: knee catch or hang up when moving, last 7 days",1.0
+KNEE_V00KSXLKN4,"EV:Q20.Left knee symptoms: straighten knee fully, last 7 days",1.0
+KNEE_V00KSXLKN5,"EV:Q21.Left knee symptoms: bend knee fully, last 7 days",1.0
+KNEE_V00DILKN1,"EV:Left knee difficulty: down stairs, last 7 days",1.0
+KNEE_V00DILKN2,"EV:Left knee difficulty: up stairs, last 7 days",1.0
+KNEE_V00DILKN3,"EV:Left knee difficulty: stand from sitting, last 7 days",1.0
+KNEE_V00DILKN4,"EV:Left knee difficulty: standing, last 7 days",1.0
+KNEE_V00DILKN5,"EV:Left knee difficulty: bending, last 7 days",1.0
+KNEE_V00DILKN6,"EV:Left knee difficulty: walking, last 7 days",1.0
+KNEE_V00DILKN7,"EV:Left knee difficulty: in car/out of car, last 7 days",1.0
+KNEE_V00DILKN8,"EV:Left knee difficulty: shopping, last 7 days",1.0
+KNEE_V00DILKN9,"EV:Left knee difficulty: socks on, last 7 days",1.0
+KNEE_V00DILKN10,"EV:Left knee difficulty: get out of bed, last 7 days",1.0
+KNEE_V00DILKN11,"EV:Left knee difficulty: socks off, last 7 days",1.0
+KNEE_V00DILKN12,"EV:Left knee difficulty: lying down, last 7 days",1.0
+KNEE_V00DILKN13,"EV:Left knee difficulty: get in/out of bathtub, last 7 days",1.0
+KNEE_V00DILKN14,"EV:Left knee difficulty: sitting, last 7 days",1.0
+KNEE_V00DILKN15,"EV:Left knee difficulty: on/off toilet, last 7 days",1.0
+KNEE_V00DILKN16,"EV:Left knee difficulty: heavy chores, last 7 days",1.0
+KNEE_V00DILKN17,"EV:Left knee difficulty: light chores, last 7 days",1.0
+KNEE_P02KPNLCV,"IEI:Q9b.Left knee pain, aching or stiffness: more than half the days of a month, past 12 months (calc, used for study eligibility)",1.0
+KNEE_P01KPL30CV,"SV:Q19a.Left knee pain, aching or stiffness: more than half the days, past 30 days (calc)",1.0
+KNEE_P01HPL12CV,"SV:Q39a.Left hip pain, aching or stiffness: more than half the days of a month, past 12 months (calc)",1.0
+KNEE_V00WOMKPL,EV:Left knee: WOMAC Pain Score (calc),1.0
+KNEE_V00KOOSKPL,EV:Left knee: KOOS Pain Score (calc),1.0
+KNEE_V00WOMSTFL,EV:Left knee: WOMAC Stiffness Score (calc),1.0
+KNEE_V00KOOSYML,EV:Left knee: KOOS Symptoms Score (calc),1.0
+KNEE_V00WOMADLL,EV:Left knee: WOMAC Disability Score (calc),1.0
+KNEE_P01KPL12CV,"SV:Q18a.Left knee pain, aching or stiffness: more than half the days of a month, past 12 months (calc)",1.0
+KNEE_V00P7LKRCV,"EV:Q14a.Left knee pain: severity, past 7 days, rated on scale of 0-10 (calc)",1.0
+KNEE_P01PMLKRCV,"SV:Q19b.Left knee pain: severity, past 30 days, rated on scale of 0-10 (calc)",1.0
+KNEE_V00WOMTSL,EV:Left knee: WOMAC Total Score (calc),1.0
+KNEE_P01LKSX,"SV:Left knee baseline symptom status (combines past 30 days and 12 months, calc, used in OAI definition of symptomatic knee OA)",1.0
+KNEE_P01LSXKOA,SV:Left knee baseline symptomatic OA status (calc),1.0
+KNEE_P01BL12SXL,"SV:Left knee baseline frequent knee pain status (IEI, SV, both, or neither) (calc)",1.0
+KNEE_P01LKP30CV,"SV:Q19.Left knee pain, aching or stiffness: any, past 30 days (calc)",1.0
+KNEE_P01RAFT6L,"SV:Q4b.RA symptoms: left fingers or thumb swelling, ever had lasting more than 6 weeks",1.0
+KNEE_P01RAKN6L,"SV:Q4d.RA symptoms: left knee swelling, ever had lasting more than 6 weeks",1.0
+KNEE_P01INJL,"SV:Q31.Left knee, ever injured badly enough to limit ability to walk for at least two days",1.0
+KNEE_P01INJL1,"SV:Q31i.Left knee, how old at first injury",1.0
+KNEE_P01INJL2,"SV:Q31ii.Left knee, how old at second injury",1.0
+KNEE_P01INJL3,"SV:Q31iii.Left knee, how old at third injury",1.0
+KNEE_P01KSURGL,"SV:Q32.Left knee, ever have surgery or arthroscopy",1.0
+KNEE_P01KRSLA,"SV:Q33a.Left knee, how old when first had replaced",1.0
+KNEE_P01ARTL,"SV:Q34.Left knee, ever have arthroscopy (where they put a scope in knee)",1.0
+KNEE_P01ARTL1,"SV:Q34ai.Left knee, how old at first arthroscopy",1.0
+KNEE_P01ARTL2,"SV:Q34aii.Left knee, how old at second arthroscopy",1.0
+KNEE_P01ARTL3,"SV:Q34aiii.Left knee, how old at third arthroscopy",1.0
+KNEE_P01ARTLINJ,"SV:Q34b.Left knee, was at least one arthroscopy to repair injury",1.0
+KNEE_P01MENL,"SV:Q35.Left knee, ever have meniscectomy (where they repaired or cut away torn meniscus or cartilage)",1.0
+KNEE_P01MENL1,"SV:Q35ai.Left knee, how old at first meniscectomy",1.0
+KNEE_P01MENL2,"SV:Q35aii.Left knee, how old at second meniscectomy",1.0
+KNEE_P01MENL3,"SV:Q35aiii.Left knee, how old at third meniscectomy",1.0
+KNEE_P01MENLINJ,"SV:Q35b.Left knee, was at least one meniscectomy to repair an injury",1.0
+KNEE_P01LRL,"SV:Q36.Left knee, ever have ligament repair surgery",1.0
+KNEE_P01LRL1,"SV:Q36ai.Left knee, how old at first ligament repair surgery",1.0
+KNEE_P01LRL2,"SV:Q36aii.Left knee, how old at second ligament repair surgery",1.0
+KNEE_P01LRL3,"SV:Q36aiii.Left knee, how old at third ligament repair surgery",1.0
+KNEE_P01OTSURGL,"SV:Q37.Left knee, ever have any other kind of surgery",1.0
+KNEE_P01OTSL1,"SV:Q37bi.Left knee, how old at first other surgery",1.0
+KNEE_P01OTSL2,"SV:Q37bii.Left knee, how old at second other surgery",1.0
+KNEE_P01OTSL3,"SV:Q37biii.Left knee, how old at third other surgery",1.0
+KNEE_P01OTSLINJ,"SV:Q37c.Left knee, was at least one other surgery to repair an injury",1.0
+KNEE_P01HRSL,"SV:Q42.Left hip, ever had replaced",1.0
+KNEE_P01HRSLOA,"SV:Q42a.Left hip replacement reason, osteoarthritis or degenerative arthritis",1.0
+KNEE_P01HRSLDK,"SV:Q42a.Left hip replacement reason, don't know",1.0
+KNEE_V00HYAINJL,"EV:Left knee hyaluronic acid injection, past 6 months (calc)",1.0
+KNEE_V00STRINJL,"EV:Left knee steroid injection, past 6 months (calc)",1.0
+KNEE_P01RAWE6L,"SV:RA symptoms: left wrist or elbow swelling, ever had lasting more than 6 weeks (calc)",1.0
+KNEE_P01HRSLFXO,"SV:Left hip replacement reason, hip fracture or other (calc)",1.0
+KNEE_V00EKRSL,"EV:Q12.Isometric strength: left knee, ever had knee replacement surgery",1.0
+KNEE_V00LLLGTH,EV:Q13.Isometric strength: left leg length from transducer to joint line (cm),1.0
+KNEE_V00LLBACK,"EV:Q15a.Isometric strength: left leg chair and transducer settings, back support (cm)",1.0
+KNEE_V00LLARM,"EV:Q15b.Isometric strength: left leg chair and transducer settings, arm support (cm)",1.0
+KNEE_V00LLHORIZ,"EV:Q15c.Isometric strength: left leg chair and transducer settings, horizontal bar (knee angle fix) (cm)",1.0
+KNEE_V00LEXPN,"EV:Q18.Isometric strength: left knee extension, any knee pain during test",1.0
+KNEE_V00LEXCOMP,"EV:Q19.Isometric strength: left knee extension, able to complete (3) measurements",1.0
+KNEE_V00LEXWHY1,"EV:Q19a.Isometric strength: left knee extension, not able to complete measurements, knee pain",1.0
+KNEE_V00LEXWHY2,"EV:Q19a.Isometric strength: left knee extension, not able to complete measurements, equipment problems",1.0
+KNEE_V00LEXWHY3,"EV:Q19a.Isometric strength: left knee extension, not able to complete measurements, participant fatigue",1.0
+KNEE_V00LEXWHY4,"EV:Q19a.Isometric strength: left knee extension, not able to complete measurements, participant refused",1.0
+KNEE_V00LEXWHY5,"EV:Q19a.Isometric strength: left knee extension, not able to complete measurements, other",1.0
+KNEE_V00LFXPN,"EV:Q21.Isometric strength: left knee flexion, any knee pain during test",1.0
+KNEE_V00LFXCOMP,"EV:Q22.Isometric strength: left knee flexion, able to complete (3) measurements",1.0
+KNEE_V00LFXWHY1,"EV:Q22a.Isometric strength: left knee flexion, not able to complete measurements, knee pain",1.0
+KNEE_V00LFXWHY2,"EV:Q22a.Isometric strength: left knee flexion, not able to complete measurements, equipment problems",1.0
+KNEE_V00LFXWHY3,"EV:Q22a.Isometric strength: left knee flexion, not able to complete measurements, participant fatigue",1.0
+KNEE_V00LFXWHY4,"EV:Q22a.Isometric strength: left knee flexion, not able to complete measurements, participant refused",1.0
+KNEE_V00LFXWHY5,"EV:Q22a.Isometric strength: left knee flexion, not able to complete measurements, other",1.0
+KNEE_V00LPN400W,EV:Q13.400-meter walk: left knee pain during walk,1.0
+KNEE_V00LPWKTYP,"EV:Q13i.400-meter walk: left knee pain mild, moderate or severe",1.0
+KNEE_V00LKPATPN,"EV:Left knee exam: patellar quadriceps tendinitis, pain/tenderness at any four sites",1.0
+KNEE_V00LKEFFB,"EV:Left knee exam: effusion, bulge sign positive",1.0
+KNEE_V00LKEFFPT,"EV:Left knee exam: effusion, patellar tap positive",1.0
+KNEE_V00LKRFXPN,EV:Left knee exam: knee flexion pain/tenderness present on exam,1.0
+KNEE_V00LKLTTPN,EV:Left knee exam: lateral tibiofemoral pain/tenderness present on exam,1.0
+KNEE_V00LKMTTPN,EV:Left knee exam: medial tibiofemoral pain/tenderness present on exam,1.0
+KNEE_V00LKABPN,"EV:Left knee exam: anserine bursa, pain/tenderness present on exam",1.0
+KNEE_V00LKPFCRE,EV:Left knee exam: patello-femoral crepitus present on exam,1.0
+KNEE_V00LKPGDPN,"EV:Left knee exam: patellar grind, painful or tender behind knee cap",1.0
+KNEE_V00LLWGT,EV:Q16.Isometric strength: left leg weight (N),1.0
+KNEE_P01LH1CV,SV:Left hand exam: joint 1 (calc),1.0
+KNEE_P01LH2CV,SV:Left hand exam: joint 2 (calc),1.0
+KNEE_P01LH3CV,SV:Left hand exam: joint 3 (calc),1.0
+KNEE_P01LH4CV,SV:Left hand exam: joint 4 (calc),1.0
+KNEE_P01LH5CV,SV:Left hand exam: joint 5 (calc),1.0
+KNEE_P01LHBE,SV:Left hand exam: total number of bony enlargements (calc),1.0
+KNEE_V00LEXP1CV,"EV:Q18a.Isometric strength: left knee extension, severity of pain (calc)",1.0
+KNEE_V00LFXP1CV,"EV:Q21a.Isometric strength: left knee flexion, severity of pain (calc)",1.0
+KNEE_V00LFXP2CV,"EV:Q21b.Isometric strength: left knee flexion, pain prevent from pulling as hard as can (calc)",1.0
+KNEE_V00LKFHDEG,"EV:Left knee exam: flexion contracture/hyperextension, degrees (contracture positive) (calc)",1.0
+KNEE_V00LKALNMT,"EV:Left knee exam: alignment, degrees (valgus negative) (calc)",1.0
+KNEE_V00lftrial,Left Flexion MAX Force TRIAL No,1.0
+KNEE_V00lfmaxf,Left Flexion MAX Force,1.0
+KNEE_V00lfTLPL,Left Flexion MAX Force Low Production Limit,1.0
+KNEE_V00lfTHPL,Left Flexion MAX Force High Production Limit,1.0
+KNEE_V00lfTLRL,Left Flexion MAX Force Low Relaxation Limit,1.0
+KNEE_V00lfTHRL,Left Flexion MAX Force High Relaxation Limit,1.0
+KNEE_V00letrial,Left Extension MAX Force TRIAL No,1.0
+KNEE_V00lemaxf,Left Extension MAX Force,1.0
+KNEE_V00leTLPL,Left Extension MAX Force Low Production Limit,1.0
+KNEE_V00leTHPL,Left Extension MAX Force High Production Limit,1.0
+KNEE_V00leTLRL,Left Extension MAX Force Low Relaxation Limit,1.0
+KNEE_V00leTHRL,Left Extension MAX Force High Relaxation Limit,1.0
+KNEE_V00lexcmp2,Left Extension Completed >=2 Good Trials,1.0
+KNEE_V00lfxcmp2,Left Flexion Completed >=2 Good Trials,1.0
+KNEE_V00lkdefcv,EV:Left knee exam: alignment varus or valgus (calc),1.0
+KNEE_V00leSFR,Left Extension Speed of Force Relaxation,1.0
+KNEE_V00lfSFP,Left Flexion Speed of Force Production,1.0
+KNEE_V00lfSFR,Left Flexion Speed of Force Relaxation,1.0
+KNEE_V00leSFP,Left Extension Speed of Force Production,1.0
+KNEE_V00LLVERT,"EV:Q15d.Isometric strength: left leg chair and transducer settings, vertical bar (height) (cm)",1.0
+KNEE_V00LPWKPRV,EV:Q13ii.400-meter walk: left knee pain prevent walking at usual pace,1.0
+KNEE_V00LEXP2CV,"EV:Q18b.Isometric strength: left knee extension, pain prevent from pushing as hard as can (calc)",1.0
+KNEE_P01KRSL,"SV:Q33.Left knee, ever have replacement where all or part of joint was replaced",1.0
+KNEE_P01SVXRLKR,SV:Left knee baseline x-ray: evidence of knee replacement (calc),1.0
+KNEE_P02KRS3CVL,Considered knee replacement on left knee,1.0
+KNEE_V00400PAINL,Left knee pain during 400-meter walk,1.0
+OTHERKNEE_P01LXRKOA,"(OTHER KNEE) SV:Left knee baseline radiographic OA (definite osteophytes, calc, used in OAI definition of symptomatic knee OA)",1.0
+OTHERKNEE_P01SVLKOST,(OTHER KNEE) SV:Left knee baseline x-ray: evidence of knee osteophytes (calc),1.0
+OTHERKNEE_P01SVLKJSM,(OTHER KNEE) SV:Left knee baseline x-ray: evidence of knee medial joint space narrowing (calc),1.0
+OTHERKNEE_P01SVLKJSL,(OTHER KNEE) SV:Left knee baseline x-ray: evidence of knee lateral joint space narrowing (calc),1.0
+OTHERKNEE_P01SVLKMI,(OTHER KNEE) SV:Left knee baseline x-ray: evidence of knee metal artifacts (calc),1.0
+OTHERKNEE_P01LXRKOA2,(OTHER KNEE) SV:Left knee baseline x-ray: osteophytes and JSN (calc),1.0
+OTHERKNEE_V00XROSFML,(OTHER KNEE) SV:Left knee paired x-ray reading: osteophytes (OARSI grades 0-3) femur medial compartment (Image Sample B),1.0
+OTHERKNEE_V00XRSCFML,(OTHER KNEE) SV:Left knee paired x-ray reading: sclerosis (OARSI grades 0-3) femur medial compartment (Image Sample B),1.0
+OTHERKNEE_V00XRCYFML,(OTHER KNEE) SV:Left knee paired x-ray reading: cysts (Grades 0-1) femur medial compartment (Image Sample B),1.0
+OTHERKNEE_V00XRJSML,(OTHER KNEE) SV:Left knee paired x-ray reading: joint space narrowing (OARSI grades 0-3) medial compartment (Image Sample B),1.0
+OTHERKNEE_V00XRCHML,(OTHER KNEE) SV:Left knee paired x-ray reading: chondrocalcinosis (Grades 0-1) medial compartment (Image Sample B),1.0
+OTHERKNEE_V00XROSTML,(OTHER KNEE) SV:Left knee paired x-ray reading: osteophytes (OARSI grades 0-3) tibia medial compartment (Image Sample B),1.0
+OTHERKNEE_V00XRSCTML,(OTHER KNEE) SV:Left knee paired x-ray reading: sclerosis (OARSI grades 0-3) tibia medial compartment (Image Sample B),1.0
+OTHERKNEE_V00XRCYTML,(OTHER KNEE) SV:Left knee paired x-ray reading: cysts (Grades 0-1) tibia medial compartment (Image Sample B),1.0
+OTHERKNEE_V00XRATTML,(OTHER KNEE) SV:Left knee paired x-ray reading: attrition (OARSI grades 0-3) tibia medial compartment (Image Sample B),1.0
+OTHERKNEE_V00XRKLL,(OTHER KNEE) SV:Left knee paired x-ray reading: Kellgren and Lawrence (Grades 0-4) (Image Sample B),1.0
+OTHERKNEE_V00XROSFLL,(OTHER KNEE) SV:Left knee paired x-ray reading: osteophytes (OARSI grades 0-3) femur lateral compartment (Image Sample B),1.0
+OTHERKNEE_V00XRSCFLL,(OTHER KNEE) SV:Left knee paired x-ray reading: sclerosis (OARSI grades 0-3) femur lateral compartment (Image Sample B),1.0
+OTHERKNEE_V00XRCYFLL,(OTHER KNEE) SV:Left knee paired x-ray reading: cysts (Grades 0-1) femur lateral compartment (Image Sample B),1.0
+OTHERKNEE_V00XRJSLL,(OTHER KNEE) SV:Left knee paired x-ray reading: joint space narrowing (OARSI grades 0-3) lateral compartment (Image Sample B),1.0
+OTHERKNEE_V00XRCHLL,(OTHER KNEE) SV:Left knee paired x-ray reading: chondrocalcinosis (Grades 0-1) lateral compartment (Image Sample B),1.0
+OTHERKNEE_V00XROSTLL,(OTHER KNEE) SV:Left knee paired x-ray reading: osteophytes (OARSI grades 0-3) tibia lateral compartment (Image Sample B),1.0
+OTHERKNEE_V00XRSCTLL,(OTHER KNEE) SV:Left knee paired x-ray reading: sclerosis (OARSI grades 0-3) tibia lateral compartment (Image Sample B),1.0
+OTHERKNEE_V00XRCYTLL,(OTHER KNEE) SV:Left knee paired x-ray reading: cysts (Grades 0-1) tibia lateral compartment (Image Sample B),1.0
+OTHERKNEE_V00XRATTLL,(OTHER KNEE) SV:Left knee paired x-ray reading: attrition (OARSI grades 0-3) tibia lateral compartment (Image Sample B),1.0
+OTHERKNEE_P01OAGRDL,(OTHER KNEE) SV:Left knee baseline x-ray: composite OA grade (quasi KL grade) (calc),1.0
+OTHERKNEE_P01KPNLEV,"(OTHER KNEE) SV:Q17.Left knee pain, aching or stiffness: ever had more than half the days of a month",1.0
+OTHERKNEE_P01KPNLEVY,"(OTHER KNEE) SV:Q17a.Left knee pain, aching or stiffness: started about how many years ago",1.0
+OTHERKNEE_P01KPNL12,"(OTHER KNEE) SV:Q18.Left knee pain, aching or stiffness: any, past 12 months",1.0
+OTHERKNEE_P01KPNL12M,"(OTHER KNEE) SV:Q18ai.Left knee pain, aching or stiffness: how many months on more than half the days of a month, past 12 months",1.0
+OTHERKNEE_P01HPNL12,"(OTHER KNEE) SV:Q39.Left hip pain, aching or stiffness: any, past 12 months (includes pain in groin and in front and sides of upper thigh)",1.0
+OTHERKNEE_P01HPNLIL,"(OTHER KNEE) SV:Q39ai.Left hip pain, aching or stiffness location: groin/inside leg near hip",1.0
+OTHERKNEE_P01HPNLOL,"(OTHER KNEE) SV:Q39ai.Left hip pain, aching or stiffness location: outside of leg near hip",1.0
+OTHERKNEE_P01HPNLFL,"(OTHER KNEE) SV:Q39ai.Left hip pain, aching or stiffness location: front of leg near hip",1.0
+OTHERKNEE_P01HPNLB,"(OTHER KNEE) SV:Q39ai.Left hip pain, aching or stiffness location: buttocks",1.0
+OTHERKNEE_P01HPNLLB,"(OTHER KNEE) SV:Q39ai.Left hip pain, aching or stiffness location: lower back",1.0
+OTHERKNEE_P01HPNLDK,"(OTHER KNEE) SV:Q39ai.Left hip pain, aching or stiffness location: don't know",1.0
+OTHERKNEE_P01OJPNLS,"(OTHER KNEE) SV:Q44.Left shoulder pain, aching or stiffness: more than half the days, past 30 days",1.0
+OTHERKNEE_P01OJPNLE,"(OTHER KNEE) SV:Q44.Left elbow pain, aching or stiffness: more than half the days, past 30 days",1.0
+OTHERKNEE_P01OJPNLW,"(OTHER KNEE) SV:Q44.Left wrist pain, aching or stiffness: more than half the days, past 30 days",1.0
+OTHERKNEE_P01OJPNLH,"(OTHER KNEE) SV:Q44.Left hand/finger pain, aching or stiffness: more than half the days, past 30 days",1.0
+OTHERKNEE_P01OJPNLA,"(OTHER KNEE) SV:Q44.Left ankle pain, aching or stiffness: more than half the days, past 30 days",1.0
+OTHERKNEE_P01OJPNLF,"(OTHER KNEE) SV:Q44.Left foot pain, aching or stiffness: more than half the days, past 30 days",1.0
+OTHERKNEE_V00WPLKN1,"(OTHER KNEE) EV:Left knee pain: walking, last 7 days",1.0
+OTHERKNEE_V00WPLKN2,"(OTHER KNEE) EV:Left knee pain: stairs, last 7 days",1.0
+OTHERKNEE_V00WPLKN3,"(OTHER KNEE) EV:Left knee pain: in bed, last 7 days",1.0
+OTHERKNEE_V00WPLKN4,"(OTHER KNEE) EV:Left knee pain: sit or lie down, last 7 days",1.0
+OTHERKNEE_V00WPLKN5,"(OTHER KNEE) EV:Left knee pain: standing, last 7 days",1.0
+OTHERKNEE_V00KPLKN1,"(OTHER KNEE) EV:Q13a.Left knee pain: twisting/pivoting on knee, last 7 days",1.0
+OTHERKNEE_V00KPLKN2,"(OTHER KNEE) EV:Q13b.Left knee pain: straightening knee fully, last 7 days",1.0
+OTHERKNEE_V00KPLKN3,"(OTHER KNEE) EV:Q13c.Left knee pain: bending knee fully, last 7 days",1.0
+OTHERKNEE_V00P7LKFR,(OTHER KNEE) EV:Q14.Left knee pain: how often,1.0
+OTHERKNEE_V00WSLKN1,"(OTHER KNEE) EV:Left knee stiffness: in morning, last 7 days",1.0
+OTHERKNEE_V00WSLKN2,"(OTHER KNEE) EV:Left knee stiffness: later in day, last 7 days",1.0
+OTHERKNEE_V00KSXLKN1,"(OTHER KNEE) EV:Q17.Left knee symptoms: swelling, last 7 days",1.0
+OTHERKNEE_V00KSXLKN2,"(OTHER KNEE) EV:Q18.Left knee symptoms: feel grinding, hear clicking or any other type of noise when knee moves, last 7 days",1.0
+OTHERKNEE_V00KSXLKN3,"(OTHER KNEE) EV:Q19.Left knee symptoms: knee catch or hang up when moving, last 7 days",1.0
+OTHERKNEE_V00KSXLKN4,"(OTHER KNEE) EV:Q20.Left knee symptoms: straighten knee fully, last 7 days",1.0
+OTHERKNEE_V00KSXLKN5,"(OTHER KNEE) EV:Q21.Left knee symptoms: bend knee fully, last 7 days",1.0
+OTHERKNEE_V00DILKN1,"(OTHER KNEE) EV:Left knee difficulty: down stairs, last 7 days",1.0
+OTHERKNEE_V00DILKN2,"(OTHER KNEE) EV:Left knee difficulty: up stairs, last 7 days",1.0
+OTHERKNEE_V00DILKN3,"(OTHER KNEE) EV:Left knee difficulty: stand from sitting, last 7 days",1.0
+OTHERKNEE_V00DILKN4,"(OTHER KNEE) EV:Left knee difficulty: standing, last 7 days",1.0
+OTHERKNEE_V00DILKN5,"(OTHER KNEE) EV:Left knee difficulty: bending, last 7 days",1.0
+OTHERKNEE_V00DILKN6,"(OTHER KNEE) EV:Left knee difficulty: walking, last 7 days",1.0
+OTHERKNEE_V00DILKN7,"(OTHER KNEE) EV:Left knee difficulty: in car/out of car, last 7 days",1.0
+OTHERKNEE_V00DILKN8,"(OTHER KNEE) EV:Left knee difficulty: shopping, last 7 days",1.0
+OTHERKNEE_V00DILKN9,"(OTHER KNEE) EV:Left knee difficulty: socks on, last 7 days",1.0
+OTHERKNEE_V00DILKN10,"(OTHER KNEE) EV:Left knee difficulty: get out of bed, last 7 days",1.0
+OTHERKNEE_V00DILKN11,"(OTHER KNEE) EV:Left knee difficulty: socks off, last 7 days",1.0
+OTHERKNEE_V00DILKN12,"(OTHER KNEE) EV:Left knee difficulty: lying down, last 7 days",1.0
+OTHERKNEE_V00DILKN13,"(OTHER KNEE) EV:Left knee difficulty: get in/out of bathtub, last 7 days",1.0
+OTHERKNEE_V00DILKN14,"(OTHER KNEE) EV:Left knee difficulty: sitting, last 7 days",1.0
+OTHERKNEE_V00DILKN15,"(OTHER KNEE) EV:Left knee difficulty: on/off toilet, last 7 days",1.0
+OTHERKNEE_V00DILKN16,"(OTHER KNEE) EV:Left knee difficulty: heavy chores, last 7 days",1.0
+OTHERKNEE_V00DILKN17,"(OTHER KNEE) EV:Left knee difficulty: light chores, last 7 days",1.0
+OTHERKNEE_P02KPNLCV,"(OTHER KNEE) IEI:Q9b.Left knee pain, aching or stiffness: more than half the days of a month, past 12 months (calc, used for study eligibility)",1.0
+OTHERKNEE_P01KPL30CV,"(OTHER KNEE) SV:Q19a.Left knee pain, aching or stiffness: more than half the days, past 30 days (calc)",1.0
+OTHERKNEE_P01HPL12CV,"(OTHER KNEE) SV:Q39a.Left hip pain, aching or stiffness: more than half the days of a month, past 12 months (calc)",1.0
+OTHERKNEE_V00WOMKPL,(OTHER KNEE) EV:Left knee: WOMAC Pain Score (calc),1.0
+OTHERKNEE_V00KOOSKPL,(OTHER KNEE) EV:Left knee: KOOS Pain Score (calc),1.0
+OTHERKNEE_V00WOMSTFL,(OTHER KNEE) EV:Left knee: WOMAC Stiffness Score (calc),1.0
+OTHERKNEE_V00KOOSYML,(OTHER KNEE) EV:Left knee: KOOS Symptoms Score (calc),1.0
+OTHERKNEE_V00WOMADLL,(OTHER KNEE) EV:Left knee: WOMAC Disability Score (calc),1.0
+OTHERKNEE_P01KPL12CV,"(OTHER KNEE) SV:Q18a.Left knee pain, aching or stiffness: more than half the days of a month, past 12 months (calc)",1.0
+OTHERKNEE_V00P7LKRCV,"(OTHER KNEE) EV:Q14a.Left knee pain: severity, past 7 days, rated on scale of 0-10 (calc)",1.0
+OTHERKNEE_P01PMLKRCV,"(OTHER KNEE) SV:Q19b.Left knee pain: severity, past 30 days, rated on scale of 0-10 (calc)",1.0
+OTHERKNEE_V00WOMTSL,(OTHER KNEE) EV:Left knee: WOMAC Total Score (calc),1.0
+OTHERKNEE_P01LKSX,"(OTHER KNEE) SV:Left knee baseline symptom status (combines past 30 days and 12 months, calc, used in OAI definition of symptomatic knee OA)",1.0
+OTHERKNEE_P01LSXKOA,(OTHER KNEE) SV:Left knee baseline symptomatic OA status (calc),1.0
+OTHERKNEE_P01BL12SXL,"(OTHER KNEE) SV:Left knee baseline frequent knee pain status (IEI, SV, both, or neither) (calc)",1.0
+OTHERKNEE_P01LKP30CV,"(OTHER KNEE) SV:Q19.Left knee pain, aching or stiffness: any, past 30 days (calc)",1.0
+OTHERKNEE_P01RAFT6L,"(OTHER KNEE) SV:Q4b.RA symptoms: left fingers or thumb swelling, ever had lasting more than 6 weeks",1.0
+OTHERKNEE_P01RAKN6L,"(OTHER KNEE) SV:Q4d.RA symptoms: left knee swelling, ever had lasting more than 6 weeks",1.0
+OTHERKNEE_P01INJL,"(OTHER KNEE) SV:Q31.Left knee, ever injured badly enough to limit ability to walk for at least two days",1.0
+OTHERKNEE_P01INJL1,"(OTHER KNEE) SV:Q31i.Left knee, how old at first injury",1.0
+OTHERKNEE_P01INJL2,"(OTHER KNEE) SV:Q31ii.Left knee, how old at second injury",1.0
+OTHERKNEE_P01INJL3,"(OTHER KNEE) SV:Q31iii.Left knee, how old at third injury",1.0
+OTHERKNEE_P01KSURGL,"(OTHER KNEE) SV:Q32.Left knee, ever have surgery or arthroscopy",1.0
+OTHERKNEE_P01KRSLA,"(OTHER KNEE) SV:Q33a.Left knee, how old when first had replaced",1.0
+OTHERKNEE_P01ARTL,"(OTHER KNEE) SV:Q34.Left knee, ever have arthroscopy (where they put a scope in knee)",1.0
+OTHERKNEE_P01ARTL1,"(OTHER KNEE) SV:Q34ai.Left knee, how old at first arthroscopy",1.0
+OTHERKNEE_P01ARTL2,"(OTHER KNEE) SV:Q34aii.Left knee, how old at second arthroscopy",1.0
+OTHERKNEE_P01ARTL3,"(OTHER KNEE) SV:Q34aiii.Left knee, how old at third arthroscopy",1.0
+OTHERKNEE_P01ARTLINJ,"(OTHER KNEE) SV:Q34b.Left knee, was at least one arthroscopy to repair injury",1.0
+OTHERKNEE_P01MENL,"(OTHER KNEE) SV:Q35.Left knee, ever have meniscectomy (where they repaired or cut away torn meniscus or cartilage)",1.0
+OTHERKNEE_P01MENL1,"(OTHER KNEE) SV:Q35ai.Left knee, how old at first meniscectomy",1.0
+OTHERKNEE_P01MENL2,"(OTHER KNEE) SV:Q35aii.Left knee, how old at second meniscectomy",1.0
+OTHERKNEE_P01MENL3,"(OTHER KNEE) SV:Q35aiii.Left knee, how old at third meniscectomy",1.0
+OTHERKNEE_P01MENLINJ,"(OTHER KNEE) SV:Q35b.Left knee, was at least one meniscectomy to repair an injury",1.0
+OTHERKNEE_P01LRL,"(OTHER KNEE) SV:Q36.Left knee, ever have ligament repair surgery",1.0
+OTHERKNEE_P01LRL1,"(OTHER KNEE) SV:Q36ai.Left knee, how old at first ligament repair surgery",1.0
+OTHERKNEE_P01LRL2,"(OTHER KNEE) SV:Q36aii.Left knee, how old at second ligament repair surgery",1.0
+OTHERKNEE_P01LRL3,"(OTHER KNEE) SV:Q36aiii.Left knee, how old at third ligament repair surgery",1.0
+OTHERKNEE_P01OTSURGL,"(OTHER KNEE) SV:Q37.Left knee, ever have any other kind of surgery",1.0
+OTHERKNEE_P01OTSL1,"(OTHER KNEE) SV:Q37bi.Left knee, how old at first other surgery",1.0
+OTHERKNEE_P01OTSL2,"(OTHER KNEE) SV:Q37bii.Left knee, how old at second other surgery",1.0
+OTHERKNEE_P01OTSL3,"(OTHER KNEE) SV:Q37biii.Left knee, how old at third other surgery",1.0
+OTHERKNEE_P01OTSLINJ,"(OTHER KNEE) SV:Q37c.Left knee, was at least one other surgery to repair an injury",1.0
+OTHERKNEE_P01HRSL,"(OTHER KNEE) SV:Q42.Left hip, ever had replaced",1.0
+OTHERKNEE_P01HRSLOA,"(OTHER KNEE) SV:Q42a.Left hip replacement reason, osteoarthritis or degenerative arthritis",1.0
+OTHERKNEE_P01HRSLDK,"(OTHER KNEE) SV:Q42a.Left hip replacement reason, don't know",1.0
+OTHERKNEE_V00HYAINJL,"(OTHER KNEE) EV:Left knee hyaluronic acid injection, past 6 months (calc)",1.0
+OTHERKNEE_V00STRINJL,"(OTHER KNEE) EV:Left knee steroid injection, past 6 months (calc)",1.0
+OTHERKNEE_P01RAWE6L,"(OTHER KNEE) SV:RA symptoms: left wrist or elbow swelling, ever had lasting more than 6 weeks (calc)",1.0
+OTHERKNEE_P01HRSLFXO,"(OTHER KNEE) SV:Left hip replacement reason, hip fracture or other (calc)",1.0
+OTHERKNEE_V00EKRSL,"(OTHER KNEE) EV:Q12.Isometric strength: left knee, ever had knee replacement surgery",1.0
+OTHERKNEE_V00LLLGTH,(OTHER KNEE) EV:Q13.Isometric strength: left leg length from transducer to joint line (cm),1.0
+OTHERKNEE_V00LLBACK,"(OTHER KNEE) EV:Q15a.Isometric strength: left leg chair and transducer settings, back support (cm)",1.0
+OTHERKNEE_V00LLARM,"(OTHER KNEE) EV:Q15b.Isometric strength: left leg chair and transducer settings, arm support (cm)",1.0
+OTHERKNEE_V00LLHORIZ,"(OTHER KNEE) EV:Q15c.Isometric strength: left leg chair and transducer settings, horizontal bar (knee angle fix) (cm)",1.0
+OTHERKNEE_V00LEXPN,"(OTHER KNEE) EV:Q18.Isometric strength: left knee extension, any knee pain during test",1.0
+OTHERKNEE_V00LEXCOMP,"(OTHER KNEE) EV:Q19.Isometric strength: left knee extension, able to complete (3) measurements",1.0
+OTHERKNEE_V00LEXWHY1,"(OTHER KNEE) EV:Q19a.Isometric strength: left knee extension, not able to complete measurements, knee pain",1.0
+OTHERKNEE_V00LEXWHY2,"(OTHER KNEE) EV:Q19a.Isometric strength: left knee extension, not able to complete measurements, equipment problems",1.0
+OTHERKNEE_V00LEXWHY3,"(OTHER KNEE) EV:Q19a.Isometric strength: left knee extension, not able to complete measurements, participant fatigue",1.0
+OTHERKNEE_V00LEXWHY4,"(OTHER KNEE) EV:Q19a.Isometric strength: left knee extension, not able to complete measurements, participant refused",1.0
+OTHERKNEE_V00LEXWHY5,"(OTHER KNEE) EV:Q19a.Isometric strength: left knee extension, not able to complete measurements, other",1.0
+OTHERKNEE_V00LFXPN,"(OTHER KNEE) EV:Q21.Isometric strength: left knee flexion, any knee pain during test",1.0
+OTHERKNEE_V00LFXCOMP,"(OTHER KNEE) EV:Q22.Isometric strength: left knee flexion, able to complete (3) measurements",1.0
+OTHERKNEE_V00LFXWHY1,"(OTHER KNEE) EV:Q22a.Isometric strength: left knee flexion, not able to complete measurements, knee pain",1.0
+OTHERKNEE_V00LFXWHY2,"(OTHER KNEE) EV:Q22a.Isometric strength: left knee flexion, not able to complete measurements, equipment problems",1.0
+OTHERKNEE_V00LFXWHY3,"(OTHER KNEE) EV:Q22a.Isometric strength: left knee flexion, not able to complete measurements, participant fatigue",1.0
+OTHERKNEE_V00LFXWHY4,"(OTHER KNEE) EV:Q22a.Isometric strength: left knee flexion, not able to complete measurements, participant refused",1.0
+OTHERKNEE_V00LFXWHY5,"(OTHER KNEE) EV:Q22a.Isometric strength: left knee flexion, not able to complete measurements, other",1.0
+OTHERKNEE_V00LPN400W,(OTHER KNEE) EV:Q13.400-meter walk: left knee pain during walk,1.0
+OTHERKNEE_V00LPWKTYP,"(OTHER KNEE) EV:Q13i.400-meter walk: left knee pain mild, moderate or severe",1.0
+OTHERKNEE_V00LKPATPN,"(OTHER KNEE) EV:Left knee exam: patellar quadriceps tendinitis, pain/tenderness at any four sites",1.0
+OTHERKNEE_V00LKEFFB,"(OTHER KNEE) EV:Left knee exam: effusion, bulge sign positive",1.0
+OTHERKNEE_V00LKEFFPT,"(OTHER KNEE) EV:Left knee exam: effusion, patellar tap positive",1.0
+OTHERKNEE_V00LKRFXPN,(OTHER KNEE) EV:Left knee exam: knee flexion pain/tenderness present on exam,1.0
+OTHERKNEE_V00LKLTTPN,(OTHER KNEE) EV:Left knee exam: lateral tibiofemoral pain/tenderness present on exam,1.0
+OTHERKNEE_V00LKMTTPN,(OTHER KNEE) EV:Left knee exam: medial tibiofemoral pain/tenderness present on exam,1.0
+OTHERKNEE_V00LKABPN,"(OTHER KNEE) EV:Left knee exam: anserine bursa, pain/tenderness present on exam",1.0
+OTHERKNEE_V00LKPFCRE,(OTHER KNEE) EV:Left knee exam: patello-femoral crepitus present on exam,1.0
+OTHERKNEE_V00LKPGDPN,"(OTHER KNEE) EV:Left knee exam: patellar grind, painful or tender behind knee cap",1.0
+OTHERKNEE_V00LLWGT,(OTHER KNEE) EV:Q16.Isometric strength: left leg weight (N),1.0
+OTHERKNEE_P01LH1CV,(OTHER KNEE) SV:Left hand exam: joint 1 (calc),1.0
+OTHERKNEE_P01LH2CV,(OTHER KNEE) SV:Left hand exam: joint 2 (calc),1.0
+OTHERKNEE_P01LH3CV,(OTHER KNEE) SV:Left hand exam: joint 3 (calc),1.0
+OTHERKNEE_P01LH4CV,(OTHER KNEE) SV:Left hand exam: joint 4 (calc),1.0
+OTHERKNEE_P01LH5CV,(OTHER KNEE) SV:Left hand exam: joint 5 (calc),1.0
+OTHERKNEE_P01LHBE,(OTHER KNEE) SV:Left hand exam: total number of bony enlargements (calc),1.0
+OTHERKNEE_V00LEXP1CV,"(OTHER KNEE) EV:Q18a.Isometric strength: left knee extension, severity of pain (calc)",1.0
+OTHERKNEE_V00LFXP1CV,"(OTHER KNEE) EV:Q21a.Isometric strength: left knee flexion, severity of pain (calc)",1.0
+OTHERKNEE_V00LFXP2CV,"(OTHER KNEE) EV:Q21b.Isometric strength: left knee flexion, pain prevent from pulling as hard as can (calc)",1.0
+OTHERKNEE_V00LKFHDEG,"(OTHER KNEE) EV:Left knee exam: flexion contracture/hyperextension, degrees (contracture positive) (calc)",1.0
+OTHERKNEE_V00LKALNMT,"(OTHER KNEE) EV:Left knee exam: alignment, degrees (valgus negative) (calc)",1.0
+OTHERKNEE_V00lftrial,(OTHER KNEE) Left Flexion MAX Force TRIAL No,1.0
+OTHERKNEE_V00lfmaxf,(OTHER KNEE) Left Flexion MAX Force,1.0
+OTHERKNEE_V00lfTLPL,(OTHER KNEE) Left Flexion MAX Force Low Production Limit,1.0
+OTHERKNEE_V00lfTHPL,(OTHER KNEE) Left Flexion MAX Force High Production Limit,1.0
+OTHERKNEE_V00lfTLRL,(OTHER KNEE) Left Flexion MAX Force Low Relaxation Limit,1.0
+OTHERKNEE_V00lfTHRL,(OTHER KNEE) Left Flexion MAX Force High Relaxation Limit,1.0
+OTHERKNEE_V00letrial,(OTHER KNEE) Left Extension MAX Force TRIAL No,1.0
+OTHERKNEE_V00lemaxf,(OTHER KNEE) Left Extension MAX Force,1.0
+OTHERKNEE_V00leTLPL,(OTHER KNEE) Left Extension MAX Force Low Production Limit,1.0
+OTHERKNEE_V00leTHPL,(OTHER KNEE) Left Extension MAX Force High Production Limit,1.0
+OTHERKNEE_V00leTLRL,(OTHER KNEE) Left Extension MAX Force Low Relaxation Limit,1.0
+OTHERKNEE_V00leTHRL,(OTHER KNEE) Left Extension MAX Force High Relaxation Limit,1.0
+OTHERKNEE_V00lexcmp2,(OTHER KNEE) Left Extension Completed >=2 Good Trials,1.0
+OTHERKNEE_V00lfxcmp2,(OTHER KNEE) Left Flexion Completed >=2 Good Trials,1.0
+OTHERKNEE_V00lkdefcv,(OTHER KNEE) EV:Left knee exam: alignment varus or valgus (calc),1.0
+OTHERKNEE_V00leSFR,(OTHER KNEE) Left Extension Speed of Force Relaxation,1.0
+OTHERKNEE_V00lfSFP,(OTHER KNEE) Left Flexion Speed of Force Production,1.0
+OTHERKNEE_V00lfSFR,(OTHER KNEE) Left Flexion Speed of Force Relaxation,1.0
+OTHERKNEE_V00leSFP,(OTHER KNEE) Left Extension Speed of Force Production,1.0
+OTHERKNEE_V00LLVERT,"(OTHER KNEE) EV:Q15d.Isometric strength: left leg chair and transducer settings, vertical bar (height) (cm)",1.0
+OTHERKNEE_V00LPWKPRV,(OTHER KNEE) EV:Q13ii.400-meter walk: left knee pain prevent walking at usual pace,1.0
+OTHERKNEE_V00LEXP2CV,"(OTHER KNEE) EV:Q18b.Isometric strength: left knee extension, pain prevent from pushing as hard as can (calc)",1.0
+OTHERKNEE_P01KRSL,"(OTHER KNEE) SV:Q33.Left knee, ever have replacement where all or part of joint was replaced",1.0
+OTHERKNEE_P01SVXRLKR,(OTHER KNEE) SV:Left knee baseline x-ray: evidence of knee replacement (calc),1.0
+OTHERKNEE_P02KRS3CVL,(OTHER KNEE) Considered knee replacement on left knee,1.0
+OTHERKNEE_V00400PAINL,(OTHER KNEE) Left knee pain during 400-meter walk,1.0
+P02RACE_IsBlack,P02RACE=Black,1.0
